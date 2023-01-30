@@ -1,0 +1,21 @@
+footer
+{
+    background-color: #0E0E0E;
+    color: white;
+    
+    p
+    {
+        font-family: $Police-grostitres;
+    }
+
+    ul
+    {
+        list-style: none;
+
+        li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
