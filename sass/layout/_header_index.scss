@@ -1,0 +1,86 @@
+@media all and (max-width: 426px)
+{ 
+    body
+    {
+        margin: 0;
+    }
+
+    .logo_OMF
+    {
+        width: 41%;
+        display: block;
+        margin: 21px auto 18px auto;
+    }
+
+    form
+    {
+        border: none;
+        height: 55px;
+        margin: 0;
+        background-color: #EAEAEA; 
+        text-align: center;
+
+        i
+        {
+            font-size: 1.1rem;
+            line-height: 55px;
+        }
+    }
+
+    input
+    {
+        text-align: center;
+        border: none;
+        line-height: 53px;
+        background-color: #EAEAEA; 
+        font-family: $Police-titres;
+        font-size: 1.1rem;
+        width: 35%;
+    }
+
+
+.Entete    
+    {
+        background-color: #F7F7F7;
+        text-align: center;
+        padding-bottom: 18%;
+
+        h1
+        {
+            margin: 0;
+            font-family: $Police-titres;
+            font-size: 1.7rem;
+            padding:10% 16% 0 16%;
+        }  
+
+        p
+        {
+            margin:0;
+            padding: 13px 13px 34px 13px;
+            font-family: $Police-texteextralight;
+            font-size: 1.5rem;
+        }
+        
+    }
+
+.btn_header
+    {
+        margin: auto;
+        background-color: $Couleur_premiere;
+        font-family: $Police-textegras;
+        font-size: 1.3rem;
+        color: white;
+        border: 1px solid $Couleur_premiere;
+        border-radius: 28px;
+        width: 55%;
+        padding: 14px 13px 14px 13px;
+    }
+
+header h2
+    {
+        font-family: $Police-titres;
+        font-size: 1.8rem;
+        padding: 24px 0px 0px 16px; 
+    }
+
+}

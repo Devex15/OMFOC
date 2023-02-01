@@ -1,30 +1,30 @@
 @font-face {
   font-family: "Shrikhand";
-  src: url("../Police_de_caracteres/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+  src: url("../../Police_de_caracteres/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto_Black";
-  src: url("../Police_de_caracteres/roboto/Roboto-Black.ttf") format("truetype");
+  src: url("../../Police_de_caracteres/roboto/Roboto-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto_Bold";
-  src: url("../Police_de_caracteres/roboto/Roboto-Bold.ttf") format("truetype");
+  src: url("../../../Police_de_caracteres/roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto_Light";
-  src: url("../../../Police_de_caracteres/roboto/Roboto-Light.ttf") format("truetype");
+  src: url("../../Police_de_caracteres/roboto/Roboto-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Police_Extralight";
-  src: url("../Police_de_caracteres/roboto/Roboto-Thin.ttf") format("truetype");
+  src: url("../../Police_de_caracteres/roboto/Roboto-Thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -35,23 +35,23 @@
   .logo_OMF {
     width: 41%;
     display: block;
-    margin: 19px auto 18px auto;
+    margin: 21px auto 18px auto;
   }
   form {
     border: none;
-    height: 53px;
+    height: 55px;
     margin: 0;
     background-color: #EAEAEA;
     text-align: center;
   }
   form i {
     font-size: 1.1rem;
-    line-height: 53px;
+    line-height: 55px;
   }
   input {
     text-align: center;
     border: none;
-    line-height: 51px;
+    line-height: 53px;
     background-color: #EAEAEA;
     font-family: "Roboto_Black";
     font-size: 1.1rem;
@@ -72,12 +72,12 @@
     margin: 0;
     padding: 13px 13px 34px 13px;
     font-family: "Roboto_Extralight";
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   .btn_header {
     margin: auto;
     background-color: #9356DC;
-    font-family: "Roboto_Light";
+    font-family: "Roboto_Bold";
     font-size: 1.3rem;
     color: white;
     border: 1px solid #9356DC;
@@ -90,42 +90,65 @@
     font-size: 1.8rem;
     padding: 24px 0px 0px 16px;
   }
-  .btn_fonctionnement {
-    width: 85%;
-    height: 78px;
-    margin: auto auto 25px auto;
-    background-color: #F7F7F7;
-    text-align: center;
-    border-radius: 25px;
-    z-index: 2;
-  }
-  .btn_fonctionnement .fa-sharp {
-    font-size: 1.3rem;
-    z-index: 1;
-  }
-  .btn_fonctionnement p {
-    display: inline;
-    font-family: "Roboto_Bold";
-    font-size: 1.3rem;
-    line-height: 78px;
-  }
-  .btn_fonctionnement p .fa-sharp {
-    font-size: 1.3rem;
-  }
 }
+.btn_fonctionnement {
+  width: 85%;
+  height: 78px;
+  margin: auto auto 25px auto;
+  background-color: #F7F7F7;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #e8e8e8;
+}
+.btn_fonctionnement .fa-circle {
+  font-size: 1.3rem;
+  z-index: 1;
+}
+.btn_fonctionnement p {
+  display: inline;
+  font-family: "Roboto_Bold";
+  font-size: 1.3rem;
+  line-height: 78px;
+  z-index: 2;
+}
+.btn_fonctionnement p .fa-sharp {
+  font-size: 1.3rem;
+  padding-right: 20px;
+}
+
+main {
+  background-color: #F7F7F7;
+  margin-top: 21%;
+}
+main h2 {
+  padding: 16% 0 0 5%;
+}
+
 footer {
   background-color: #0E0E0E;
   color: white;
 }
 footer p {
   font-family: "Shrikhand";
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 6% 0 6% 9%;
 }
 footer ul {
-  list-style: none;
+  list-style: none; /* Rajouter font-family et font-size*/
+  margin: 0 0 0 6%;
+  padding: 0;
 }
-footer ul li a {
+footer ul li {
+  padding-bottom: 11px;
+}
+footer ul a {
   text-decoration: none;
   color: white;
+}
+footer ul a i {
+  padding-right: 6px;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=styles.css.map */

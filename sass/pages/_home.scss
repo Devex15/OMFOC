@@ -1,115 +1,43 @@
-@media all and (max-width: 426px)
-{ 
-    body
+.btn_fonctionnement
     {
-        margin: 0;
-    }
+    width: 85%;
+    height: 78px;
+    margin: auto auto 25px auto;
+    background-color: #F7F7F7;
+    text-align: center;
+    border-radius: 25px;
 
-    .logo_OMF
-    {
-        width: 41%;
-        display: block;
-        margin: 19px auto 18px auto;
-    }
-
-    form
-    {
-        border: none;
-        height: 53px;
-        margin: 0;
-        background-color: #EAEAEA; 
-        text-align: center;
-
-        i
+    .fa-circle
         {
-            font-size: 1.1rem;
-            line-height: 53px;
+            font-size: 1.3rem;
+            z-index: 1;
         }
-    }
-
-    input
-    {
-        text-align: center;
-        border: none;
-        line-height: 51px;
-        background-color: #EAEAEA; 
-        font-family: $Police-titres;
-        font-size: 1.1rem;
-        width: 35%;
-    }
-
-
-.Entete    
-    {
-        background-color: #F7F7F7;
-        text-align: center;
-        padding-bottom: 18%;
-
-        h1
-        {
-            margin: 0;
-            font-family: $Police-titres;
-            font-size: 1.7rem;
-            padding:10% 16% 0 16%;
-        }  
 
         p
-        {
-            margin:0;
-            padding: 13px 13px 34px 13px;
-            font-family: $Police-texteextralight;
-            font-size: 1.4rem;
-        }
-        
-    }
-
-    .btn_header
-    {
-        margin: auto;
-        background-color: $Couleur_premiere;
-        font-family: $Police-textelight;
-        font-size: 1.3rem;
-        color: white;
-        border: 1px solid $Couleur_premiere;
-        border-radius: 28px;
-        width: 55%;
-        padding: 14px 13px 14px 13px;
-    }
-
-    header h2
-    {
-        font-family: $Police-titres;
-        font-size: 1.8rem;
-        padding: 24px 0px 0px 16px; 
-    }
-
-    .btn_fonctionnement
-        {
-            width: 85%;
-            height: 78px;
-            margin: auto auto 25px auto;
-            background-color: #F7F7F7;
-            text-align: center;
-            border-radius: 25px;
-            z-index: 2;
-
-            .fa-sharp
             {
+                display: inline;
+                font-family: $Police-textegras;
                 font-size: 1.3rem;
-                z-index: 1;
+                line-height: 78px;
+                z-index: 2;
+
+                .fa-sharp
+                {
+                    font-size: 1.3rem;
+                    padding-right: 20px;
+                }
             }
 
-            p
-               {
-                 display: inline;
-                   font-family: $Police-textegras;
-                   font-size: 1.3rem;
-                   line-height: 78px;
+            box-shadow: 5px 5px 5px #e8e8e8
+    }
 
-                   .fa-sharp
-                  {
-                      font-size: 1.3rem;
-                  }
-                }
-        }
+main
+{
+    background-color: #F7F7F7;
+    margin-top: 21%;
+
+    h2
+    {
+        padding: 16% 0 0 5%;
+    }
 }

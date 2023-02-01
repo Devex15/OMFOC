@@ -5,17 +5,33 @@ footer
     
     p
     {
-        font-family: $Police-grostitres;
+        font-family: $Police-grostitres; 
+        font-size:1.2rem;
+        margin: 0;
+        padding: 6% 0 6% 9%;
     }
 
-    ul
+    ul /* revoir les tailles des marges quand pb de font réglé*/
     {
-        list-style: none;
+        list-style: none; /* Rajouter font-family et font-size*/
+        margin: 0 0 0 6%;
+        padding: 0;
 
-        li a
+        li /* revoir les tailles des marges quand pb de font réglé*/
         {
-            text-decoration: none;
-            color: white;
+            padding-bottom: 11px;
         }
+
+            a
+            {
+                text-decoration: none;
+                color: white;
+
+                i
+                {
+                    padding-right: 6px;
+                    font-size: 13px;
+                }
+            }
     }
 }
