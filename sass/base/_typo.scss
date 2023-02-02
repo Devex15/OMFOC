@@ -17,7 +17,15 @@
 @font-face
 {
 	font-family: 'Roboto_Bold';
-	src: url('../../../Police_de_caracteres/roboto/Roboto-Bold.ttf') format('truetype');
+	src: url('../../Police_de_caracteres/roboto/Roboto-Bold.ttf') format('truetype');
+	font-weight:  normal;
+	font-style:  normal;
+}
+
+@font-face
+{
+	font-family: 'Roboto_Regular';
+	src: url('../../Police_de_caracteres/roboto/Roboto-Regular.ttf') format('truetype');
 	font-weight:  normal;
 	font-style:  normal;
 }
@@ -32,7 +40,7 @@
 
 @font-face
 {
-	font-family: 'Police_Extralight';
+	font-family: 'Roboto-Extralight';
 	src: url('../../Police_de_caracteres/roboto/Roboto-Thin.ttf') format('truetype');
 	font-weight:  normal;
 	font-style:  normal;

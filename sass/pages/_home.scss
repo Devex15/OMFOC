@@ -35,9 +35,61 @@ main
 {
     background-color: #F7F7F7;
     margin-top: 21%;
+    padding-bottom: 18%;
 
     h2
     {
-        padding: 16% 0 0 5%;
+        font-family: $Police-titres;
+        font-size: 1.7rem;
+        padding: 14% 0 1% 5%;
     }
+}
+
+figure
+{
+    width: 93%;
+    margin: auto;
+    background-color: white;
+    margin: 6% auto auto auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #e8e8e8;
+
+    .img_restau_index
+    {
+        width: 100%;
+        object-fit: cover;
+        max-height: 198px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    figcaption
+    {
+        display: flex;
+        justify-content: space-between;
+
+        div
+        {
+            margin-left: 16px;
+
+            p
+            {
+                margin: 0;
+            }
+
+            .nom_restau
+            {
+                font-family: $Police-titres;
+                font-size: 1.3rem;
+                padding: 15px 0 5px 0;
+            }
+            
+            .lieu_restau
+            {
+                font-family: $Police-textelight;
+                font-size: 1.2rem;
+                padding-bottom: 19px;
+            }
+        }
+    }
+
 }
