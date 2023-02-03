@@ -1,0 +1,45 @@
+footer
+{
+    background-color: #353535;
+    color: white;
+    padding-bottom: 28px;
+    
+    p
+    {
+        font-family: $Police-grostitres; 
+        font-size:1.2rem;
+        margin: 0;
+        padding: 6% 0 5% 9%;
+    }
+
+    ul
+    {
+        list-style: none;
+        margin: 0 0 0 8%;
+        padding: 0;
+
+        li
+        {
+            padding-bottom: 7px;
+        }
+
+            a
+            {
+                text-decoration: none;
+                color: white;
+                font-family: $Police-textenormal;
+                font-size: 1.1rem;
+
+                i
+                {
+                    padding-right: 6px;
+                    font-size: 0.9rem;
+                }
+
+                .fa-handshake-angle
+                {
+                    font-size: 0.7rem;
+                }
+            }
+    }
+}

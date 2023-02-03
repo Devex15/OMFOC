@@ -1,41 +1,50 @@
 .btn_fonctionnement
     {
-    width: 85%;
-    height: 78px;
-    margin: auto auto 25px auto;
-    background-color: #F7F7F7;
-    text-align: center;
-    border-radius: 25px;
+    display: flex;
 
-    .fa-circle
+        .btn_ordre
         {
-            font-size: 1.3rem;
-            z-index: 1;
+            width: 29px;
+            height:29px;
+            border-radius: 14px;
+            background-color: $Couleur_premiere;
+            font-family: $Police-textenormal;
+            font-size: 0.9rem;
+            color: white;
+            text-align: center;
+            line-height: 29px;
+            margin-top: 26px;
+            position: absolute;
+            left: 11px;
         }
 
         p
             {
-                display: inline;
+                margin: auto auto 25px auto;
+                background-color: #F7F7F7;
+                border-radius: 25px;
+                width: 91%;
+                height: 83px;
+                line-height: 83px;
                 font-family: $Police-textegras;
-                font-size: 1.3rem;
-                line-height: 78px;
-                z-index: 2;
+                font-size: 1.2rem;
+                text-align: center;
 
                 .fa-sharp
                 {
                     font-size: 1.3rem;
                     padding-right: 20px;
                 }
+                
+                box-shadow: 5px 5px 5px #e8e8e8
             }
-
-            box-shadow: 5px 5px 5px #e8e8e8
     }
 
 main
 {
     background-color: #F7F7F7;
-    margin-top: 21%;
-    padding-bottom: 18%;
+    margin-top: 16%;
+    padding-bottom: 19%;
 
     h2
     {
