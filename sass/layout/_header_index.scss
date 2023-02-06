@@ -19,7 +19,7 @@
         margin: 0;
         background-color: #EAEAEA; 
         text-align: center;
-
+        box-shadow: inset 0 4px #DDDDDD;
         i
         {
             font-size: 1.1rem;
@@ -31,6 +31,7 @@
     {
         border: none;
         outline: none;
+        box-shadow: inset 0 4px #DDDDDD;
         text-align: center;
         line-height: 53px;
         background-color: #EAEAEA; 
@@ -50,7 +51,7 @@
         {
             margin: 0;
             font-family: $Police-titres;
-            font-size: 1.6rem;
+            font-size: 1.7rem;
             padding:11% 13% 0 13%;
         }  
 
@@ -59,7 +60,7 @@
             margin:0;
             padding: 16px 13px 33px 13px;
             font-family: $Police-texteextralight;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
         }
         
     }

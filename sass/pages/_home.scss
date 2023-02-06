@@ -4,8 +4,8 @@
 
         .btn_ordre
         {
-            width: 29px;
-            height:29px;
+            width: 27px;
+            height:27px;
             border-radius: 14px;
             background-color: $Couleur_premiere;
             font-family: $Police-textenormal;
@@ -16,6 +16,7 @@
             margin-top: 26px;
             position: absolute;
             left: 11px;
+
         }
 
         p
@@ -24,19 +25,29 @@
                 background-color: #F7F7F7;
                 border-radius: 25px;
                 width: 91%;
-                height: 83px;
-                line-height: 83px;
+                height: 79px;
+                line-height: 79px;
                 font-family: $Police-textegras;
-                font-size: 1.2rem;
+                font-size: 1.1rem;
                 text-align: center;
 
-                .fa-sharp
+                i
                 {
                     font-size: 1.3rem;
                     padding-right: 20px;
+                    color: #7E7E7E;
                 }
-                
-                box-shadow: 5px 5px 5px #e8e8e8
+
+                i:hover
+                {
+                    color: $Couleur_premiere;
+                }
+            box-shadow: 5px 5px 5px #e8e8e8
+            }
+
+        p:hover
+            {
+                background-color:#F5EDFF;
             }
     }
 
@@ -44,34 +55,62 @@ main
 {
     background-color: #F7F7F7;
     margin-top: 16%;
-    padding-bottom: 19%;
+    padding-bottom: 16%;
 
     h2
     {
         font-family: $Police-titres;
         font-size: 1.7rem;
-        padding: 14% 0 1% 5%;
+        padding: 14% 0 0 5%;
     }
 }
 
-figure
+.CardRestau_index
 {
     width: 93%;
     margin: auto;
     background-color: white;
-    margin: 6% auto auto auto;
+    margin: 5% auto 5% auto;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #e8e8e8;
+
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nouveaute
+    {
+        width: 27%;
+        margin: 0;
+        font-family: $Police-textegras;
+        font-size: 1rem;
+        height: 29px;
+        text-align: center;
+        line-height: 31px;
+        float: right;
+        position: relative;
+        right: 13px;
+        bottom: 180px;
+    }
+
+    p
+    {
+        color: #008766;
+        border: 1px solid #99E2D0;
+        background-color: #99E2D0;
+    }
 
     .img_restau_index
     {
         width: 100%;
         object-fit: cover;
-        max-height: 198px;
+        max-height: 192px;
         border-radius: 15px 15px 0 0;
     }
 
-    figcaption
+   .InfoRestau_index
     {
         display: flex;
         justify-content: space-between;
@@ -83,20 +122,23 @@ figure
             p
             {
                 margin: 0;
+                background-color: white;
+                color: black;
+                border: 1px solid white;
             }
 
             .nom_restau
             {
                 font-family: $Police-titres;
-                font-size: 1.3rem;
-                padding: 15px 0 5px 0;
+                font-size: 1.2rem;
+                padding: 11px 0 5px 0;
             }
             
             .lieu_restau
             {
                 font-family: $Police-textelight;
-                font-size: 1.2rem;
-                padding-bottom: 19px;
+                font-size: 1.1rem;
+                padding-bottom: 12px;
             }
         }
     }
