@@ -8,15 +8,24 @@
             div
             {
                 text-align: center;
-                width: 15%;
-                height: 53px;
-                line-height: 53px;
+                font-size: 1.1rem;
+                width: 16%;
+                height: 69px;
+                line-height: 69px;
             }
 
             img
             {
-                width:41%;
-                
+                width:41%;           
+                margin: 6% 29% 5% 15%
             }
+    }
+
+    .image_restau
+    {
+        width: 100%;
+        object-fit: cover;
+        transform: scale(1.08);
+        padding-top: 6px;
     }
 }

@@ -73,6 +73,7 @@ main
     margin: 5% auto 5% auto;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #e8e8e8;
+    position: relative;
 
     a
     {
@@ -90,9 +91,9 @@ main
         text-align: center;
         line-height: 31px;
         float: right;
-        position: relative;
+        position: absolute;
         right: 13px;
-        bottom: 180px;
+        bottom: 225px;
     }
 
     p
@@ -114,6 +115,7 @@ main
     {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         div
         {
@@ -141,6 +143,17 @@ main
                 padding-bottom: 12px;
             }
         }
-    }
 
+        div
+        {
+            i
+            {
+                padding-right: 25px;
+                color:white;
+                -webkit-text-stroke: 1px black;
+            }
+        }
+    }
 }
+
+
