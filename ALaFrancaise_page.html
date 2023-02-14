@@ -14,7 +14,7 @@
     <header> 
      
         <nav>
-            <div>
+            <div  class="lien">
                 <a href="./index.html"></a>
                     <i class="fa-sharp fa-solid fa-arrow-left"></i>
                 </a>
@@ -24,7 +24,7 @@
             
         </nav>
 
-        <img src="./images/images_index/A_la_francaise.jpg" class="image_restau" alt="Image_Restau_A_la_francaise"/>
+        <img src="./images/images_index/A_la_francaise.jpg" class="Img_Restau" alt="Image_Restau_A_la_francaise"/>
     </header>
 
     <main class="MainPages">
@@ -38,112 +38,122 @@
         <h2 class="SousTitre_Page"> ENTRÉES </h2>
         <hr align="left" width="5%" noshade>
         
-            <div>
-                <p> Tartare de poulpes acidulées </p>
+            <div class="CardPlat">
+                <div class="CardPlat__ContPlat"> <!-- A revoir : ne se justifie et et à utiliser seulement si class="click" doit être une div -->
+                    <p class="CardPLat__Principal"> Tartare de poulpe acidulé </p>
 
-                <div>
-                    <p> Aux zestes d'orange </p>
+                    <div class="CardPlat__AccPlat">
+                        <p class="CardPLat__Legumes"> Aux zestes d'orange </p>
 
-                    <p> 25€ </p>
+                        <p class="CardPlat__Prix"> 25€ </p>
+                    </div>                    
+                </div>
+
+                <!-- <p class="CardPlat__Click"> fontawesome à rajouter </p>  (A voir plus tard si c'est un paragraphe ou une anim qu'il faut)  -->
+
+            </div>
+
+            <div class="CardPlat">
+                <div class="CardPlat__ContPlat">
+                    <p class="CardPLat__Principal">  Velouté de légumes d'antant </p>
+    
+                    <div class="CardPlat__AccPlat">
+                        <p class="CardPLat__Legumes"> Carottes, panais, topinambour </Canvas></p>
+    
+                        <p class="CardPlat__Prix"> 35€ </p>
+                    </div>
                 </div>
             </div>
 
-            <div>
-
-                <p>  Velouté de légumes d'antant </p>
+            <div class="CardPlat">
+                <div class="CardPlat__ContPlat">
+                    <p class="CardPLat__Principal"> Soupe à l'oignon </p>
     
-                <div>
-                    <p> Carottes, panais, topinambour </Canvas></p>
+                    <div class="CardPlat__AccPlat">
+                        <p class="CardPLat__Legumes"> Revisitée </p>
     
-                    <p> 35€ </p>
-                </div>
-            </div>
-
-            <div>
-
-                <p> Soupe à l'oignon </p>
-    
-                <div>
-                    <p> Revisitée </p>
-    
-                    <p> 20€ </p>
+                        <p class="CardPlat__Prix"> 20€ </p>
+                    </div>
                 </div>
             </div>
 
         <h2 class="SousTitre_Page"> PLATS </h2>
+        <hr align="left" width="5%" noshade>
 
-        <div>
+        <div class="CardPlat">
+            <div class="CardPlat__ContPlat">
+                <p class="CardPLat__Principal"> Coquilles Saint Jacques </p>
 
-            <p> Coquilles Saint Jacques </p>
+                <div class="CardPlat__AccPlat">
+                    <p class="CardPLat__Legumes"> accompagnées de panais </p>
 
-            <div>
-                <p> accompagnées de panais </p>
-
-                <p> 40€ </p>
+                    <p class="CardPlat__Prix"> 40€ </p>
+                </div>
             </div>
         </div>
 
-        <div>
+        <div class="CardPlat">
+            <div class="CardPlat__ContPlat">
+                <p class="CardPLat__Principal"> Magret de canard </p>
 
-            <p> Magret de canard </p>
+                <div class="CardPlat__AccPlat">
+                    <p class="CardPLat__Legumes"> Et parmentier de pommes de terre </p>
 
-            <div>
-
-                <p> Et parmentier de pommes de terre </p>
-
-                <p> 35€ </p>
+                    <p class="CardPlat__Prix"> 35€ </p>
+                </div>
             </div>
         </div>
 
-        <div>
+        <div class="CardPlat">
+            <div class="CardPlat__ContPlat">
+                <p class="CardPLat__Principal"> Pigeonneau d'Île et Vilaine </p>
 
-            <p> Pigeonneau d'Île et Vilaine </p>
+                <div class="CardPlat__AccPlat">
+                    <p class="CardPLat__Legumes"> Sur son lit de gnocchis aux légumes</p>
 
-            <div>
-                <p> Sur son lit de gnocchis aux légumes</p>
-
-                <p> 44€</p>
+                    <p class="CardPlat__Prix"> 44€</p>
+                </div>
             </div>
         </div>
 
         <h2 class="SousTitre_Page"> DESSERTS </h2>
 
-        <div>
-            <p> Pétales de violettes glacées </p>
+        <hr align="left" width="5%" noshade>
 
-            <div>
-                <p> Et purée de noisettes</p>
+        <div class="CardPlat">
+            <div class="CardPlat__ContPlat">
+                <p class="CardPLat__Principal"> Pétales de violettes glacées </p>
 
-                <p> 18€ </p>
+                <div class="CardPlat__AccPlat">
+                    <p class="CardPLat__Legumes"> Et purée de noisettes</p>
 
-                <p></p>
-
+                    <p class="CardPlat__Prix"> 18€ </p>
+                </div>
             </div>
         </div>
 
-        <div>
-            <p> Fondant au chocolat </p>
+        <div class="CardPlat">
+            <div class="CardPlat__ContPlat">
+                <p class="CardPLat__Principal"> Fondant au chocolat </p>
 
-            <div>
-                <p> Revisité </p>
+                <div class="CardPlat__AccPlat">
+                    <p class="CardPLat__Legumes"> Revisité </p>
 
-                <p> 22€ </p>
+                    <p class="CardPlat__Prix"> 22€ </p>
 
-                <p></p>
-
+                </div>
             </div>
         </div>
 
-        <div>
-            <p> Mille feuilles croustillants </p>
+        <div class="CardPlat">
+            <div class="CardPlat__ContPlat">
+                <p class="CardPLat__Principal"> Mille feuilles croustillants </p>
 
-            <div>
-                <p> Myrtilles et pâte d'amande </p>
+                <div class="CardPlat__AccPlat">
+                    <p class="CardPLat__Legumes"> Myrtilles et pâte d'amande </p>
 
-                <p> 23€ </p>
-
-                <p></p>
-
+                    <p class="CardPlat__Prix"> 23€ </p>
+                </div>
             </div>
         </div>
 

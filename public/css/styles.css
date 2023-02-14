@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Shrikhand";
   src: url("../../Police_de_caracteres/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
@@ -135,11 +136,11 @@
   padding-right: 20px;
   color: #7E7E7E;
 }
-.btn_fonctionnement p i:hover {
-  color: #9356DC;
-}
 .btn_fonctionnement p:hover {
   background-color: #F5EDFF;
+}
+.btn_fonctionnement p:hover i {
+  color: #9356DC;
 }
 
 main {
@@ -225,7 +226,7 @@ main h2 {
     display: flex;
     justify-content: flex-start;
   }
-  nav div {
+  nav .lien {
     text-align: center;
     font-size: 1.1rem;
     width: 16%;
@@ -237,7 +238,7 @@ main h2 {
     width: 41%;
     margin: 6% 29% 5% 15%;
   }
-  .image_restau {
+  .Img_Restau {
     width: 100%;
     object-fit: cover;
     transform: scale(1.08);
@@ -262,20 +263,54 @@ main h2 {
   font-size: 1.7rem;
   font-weight: 400;
   font-family: "Shrikhand";
-  padding: 0 0 0 18px;
-  margin-bottom: 0;
+  padding: 28px 0 0 18px;
+  margin: 0;
 }
 .MainPages .TitrePrincipal_Pages i {
-  padding: 33px 33px 0 0;
+  padding: 38px 33px 0 0;
   font-size: 1.3rem;
   color: white;
   -webkit-text-stroke: 1px black;
 }
 .MainPages .SousTitre_Page {
   font-family: "Roboto-Extralight";
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin: 0;
   padding: 28px 0 0 9px;
+}
+.MainPages hr {
+  margin-left: 9px;
+  width: 11%;
+  border-bottom: 2px solid #99E2D0;
+}
+
+.CardPlat {
+  background-color: white; /* à vérofier */
+  margin: 0 15px 15px 15px;
+  border-radius: 13px 15px 13px 13px;
+  box-shadow: 1px 4px 4px 4px #e8e8e8;
+}
+.CardPlat > .CardPlat__ContPlat p {
+  margin: 0;
+  padding: 11px 0 5px 11px;
+  font-family: "Roboto_Bold";
+  font-size: 1.1rem;
+}
+.CardPlat > .CardPlat__ContPlat .CardPlat__AccPlat {
+  display: flex;
+  justify-content: space-between;
+}
+.CardPlat > .CardPlat__ContPlat .CardPlat__AccPlat .CardPLat__Legumes {
+  font-family: "Roboto-Extralight";
+  font-size: 1rem;
+  margin: 0;
+  padding: 1px 0 9px 11px;
+}
+.CardPlat > .CardPlat__ContPlat .CardPlat__AccPlat .CardPlat__Prix {
+  margin: 0;
+  font-family: "Roboto_Bold";
+  font-size: 0.9rem;
+  padding: 0 18px 9px 0;
 }
 
 footer {

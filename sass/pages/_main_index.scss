@@ -37,17 +37,18 @@
                     padding-right: 20px;
                     color: #7E7E7E;
                 }
-
-                i:hover
+            
+                &:hover
                 {
-                    color: $Couleur_premiere;
-                }
-            box-shadow: 5px 5px 5px #e8e8e8
-            }
+                    background-color:#F5EDFF;
 
-        p:hover
-            {
-                background-color:#F5EDFF;
+                    i
+                    {
+                        color: $Couleur_premiere;
+                    }
+                }
+
+            box-shadow: 5px 5px 5px #e8e8e8
             }
     }
 
