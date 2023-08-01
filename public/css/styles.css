@@ -159,6 +159,10 @@ main h2 {
   padding: 14% 0 0 5%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .CardRestau_index {
   width: 93%;
   margin: auto;
@@ -303,6 +307,9 @@ nav img {
   width: 11%;
   border-bottom: 2px solid #99E2D0;
   border-color: #99E2D0;
+}
+.MainPages a {
+  text-decoration: none;
 }
 .MainPages .CardPlat {
   background-color: white; /* à vérifier */

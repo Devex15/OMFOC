@@ -46,7 +46,11 @@
         border-bottom: 2px solid $couleur_tertiaire;
         border-color: $couleur_tertiaire;
     }
-   
+
+    a
+    {
+        text-decoration: none;
+    }  
 
 
 .CardPlat
