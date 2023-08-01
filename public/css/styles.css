@@ -302,11 +302,11 @@ nav img {
   margin: 0;
   padding: 28px 0 0 9px;
 }
-.MainPages hr {
-  margin-left: 9px;
+.MainPages .SousTitre_surlignage {
+  margin: 8px 0 9px 9px;
   width: 11%;
-  border-bottom: 2px solid #99E2D0;
-  border-color: #99E2D0;
+  height: 1%;
+  border: 2px solid #99E2D0;
 }
 .MainPages a {
   text-decoration: none;

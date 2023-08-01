@@ -39,13 +39,13 @@
         padding: 28px 0 0 9px;
     }
 
-    hr
+    .SousTitre_surlignage
     {
-        margin-left: 9px;
-        width: 11%;
-        border-bottom: 2px solid $couleur_tertiaire;
-        border-color: $couleur_tertiaire;
-    }
+       margin: 8px 0 9px 9px;
+       width: 11%;
+       height: 1%;
+       border: 2px solid $couleur_tertiaire;
+     }
 
     a
     {
