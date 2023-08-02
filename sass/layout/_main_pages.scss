@@ -59,6 +59,20 @@
         margin: 0 15px 15px 15px;
         border-radius: 13px 15px 13px 13px;
         box-shadow: 1px 4px 4px 4px #e8e8e8;
+        animation: affichage 1s linear;
+
+        @keyframes affichage
+        {
+            from
+            {
+                transform: scale(0);
+            }
+
+            to
+            {
+                transform: scale(1);
+            }
+        }
 
         .CardPLat__specifite
         {
@@ -101,8 +115,50 @@
                 align-items: flex-end;
                 padding: 13px;
             }
+
+            .CardPlat__Check
+            {
+                display: grid;
+                place-items: center;
+                color: white;
+                background-color: #a1f4de;
+                border-radius: 0px 13px 13px 0px;
+                margin-right: -50px;
+                width: 50px;
+
+                .fa-check-circle
+                {
+                    color: white;
+                    font-size: 16px;
+                }
+            }
         }
     }
+
+    .CardPlat:hover .CardPlat__Check
+    {
+        transition: all 400ms;  /* revoir les transitions : gros doutes */   /* pas de width , pas de linear car pas d'animation soft */ 
+        margin-right: 0;
+    }
+
+    .CardPlat:hover .fa-check-circle
+    {
+        animation: rotation 400ms linear;
+    }
+
+    @keyframes rotation
+    {
+        from
+        {
+            transform: rotate(-150deg) ;
+        }
+
+        to
+        {
+            transform: rotate(0deg);
+        }
+    }
+
 
     
     
@@ -118,5 +174,55 @@
         border-radius: 28px;
         width: 46%;
         box-shadow: 5px 5px 5px #e8e8e8;
+    }
+
+    .DelayAffich200ms
+    {
+        animation-delay: 200ms;
+    }
+
+    .DelayAffich400ms
+    {
+        animation-delay: 400ms;
+    }
+
+    .DelayAffich600ms
+    {
+        animation-delay: 600ms;
+    }
+
+    .DelayAffich800ms
+    {
+        animation-delay: 800ms;
+    }
+
+    .delay1000ms
+    {
+        animation-delay: 1000ms;
+    }
+
+    .DelayAffich1200ms
+    {
+        animation-delay: 1200ms;
+    }
+
+    .DelayAffich1400ms
+    {
+        animation-delay: 1400ms;
+    }
+
+    .DelayAffich1600ms
+    {
+        animation-delay: 1600ms;
+    }
+
+    .DelayAffich1800ms
+    {
+        animation-delay: 1800ms;
+    }
+
+    .DelayAffich2000ms
+    {
+        animation-delay: 2000ms;
     }
 }

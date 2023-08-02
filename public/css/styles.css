@@ -316,6 +316,15 @@ nav img {
   margin: 0 15px 15px 15px;
   border-radius: 13px 15px 13px 13px;
   box-shadow: 1px 4px 4px 4px #e8e8e8;
+  animation: affichage 1s linear;
+}
+@keyframes affichage {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 .MainPages .CardPlat .CardPLat__specifite {
   display: flex;
@@ -348,6 +357,34 @@ nav img {
   align-items: flex-end;
   padding: 13px;
 }
+.MainPages .CardPlat .CardPLat__specifite .CardPlat__Check {
+  display: grid;
+  place-items: center;
+  color: white;
+  background-color: #a1f4de;
+  border-radius: 0px 13px 13px 0px;
+  margin-right: -50px;
+  width: 50px;
+}
+.MainPages .CardPlat .CardPLat__specifite .CardPlat__Check .fa-check-circle {
+  color: white;
+  font-size: 16px;
+}
+.MainPages .CardPlat:hover .CardPlat__Check {
+  transition: all 400ms; /* revoir les transitions : gros doutes */ /* pas de width , pas de linear car pas d'animation soft */
+  margin-right: 0;
+}
+.MainPages .CardPlat:hover .fa-check-circle {
+  animation: rotation 400ms linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(-150deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
 .MainPages .BtnCommander {
   margin: 11% auto 0 auto;
   padding: 15px 0 15px 0;
@@ -359,6 +396,36 @@ nav img {
   border-radius: 28px;
   width: 46%;
   box-shadow: 5px 5px 5px #e8e8e8;
+}
+.MainPages .DelayAffich200ms {
+  animation-delay: 200ms;
+}
+.MainPages .DelayAffich400ms {
+  animation-delay: 400ms;
+}
+.MainPages .DelayAffich600ms {
+  animation-delay: 600ms;
+}
+.MainPages .DelayAffich800ms {
+  animation-delay: 800ms;
+}
+.MainPages .delay1000ms {
+  animation-delay: 1000ms;
+}
+.MainPages .DelayAffich1200ms {
+  animation-delay: 1200ms;
+}
+.MainPages .DelayAffich1400ms {
+  animation-delay: 1400ms;
+}
+.MainPages .DelayAffich1600ms {
+  animation-delay: 1600ms;
+}
+.MainPages .DelayAffich1800ms {
+  animation-delay: 1800ms;
+}
+.MainPages .DelayAffich2000ms {
+  animation-delay: 2000ms;
 }
 
 footer {
