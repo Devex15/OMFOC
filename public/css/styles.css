@@ -317,27 +317,36 @@ nav img {
   border-radius: 13px 15px 13px 13px;
   box-shadow: 1px 4px 4px 4px #e8e8e8;
 }
-.MainPages .CardPlat > .CardPlat__ContPlat p {
-  margin: 0;
-  padding: 11px 0 5px 11px;
-  font-family: "Roboto_Bold";
-  font-size: 1.1rem;
-}
-.MainPages .CardPlat > .CardPlat__ContPlat .CardPlat__AccPlat {
+.MainPages .CardPlat .CardPLat__specifite {
   display: flex;
-  justify-content: space-between;
+  overflow: hidden;
 }
-.MainPages .CardPlat > .CardPlat__ContPlat .CardPlat__AccPlat .CardPLat__Legumes {
+.MainPages .CardPlat .CardPLat__specifite .CardPlat__ContPlat {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 11px;
+}
+.MainPages .CardPlat .CardPLat__specifite .CardPlat__ContPlat p {
+  margin: 0;
+  font-family: "Roboto_Bold";
+  font-size: 0.9rem;
+}
+.MainPages .CardPlat .CardPLat__specifite .CardPlat__ContPlat .CardPLat__Principal {
+  padding-bottom: 2px;
+}
+.MainPages .CardPlat .CardPLat__specifite .CardPlat__ContPlat .CardPLat__Legumes {
   font-family: "Roboto-Extralight";
   font-size: 0.9rem;
-  margin: 0;
-  padding: 1px 0 9px 11px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.MainPages .CardPlat > .CardPlat__ContPlat .CardPlat__AccPlat .CardPlat__Prix {
-  margin: 0;
-  font-family: "Roboto_Bold";
-  font-size: 0.9rem;
-  padding: 0 18px 9px 0;
+.MainPages .CardPlat .CardPLat__specifite .CardPlat__Prix {
+  margin-left: auto;
+  display: flex;
+  align-items: flex-end;
+  padding: 13px;
 }
 .MainPages .BtnCommander {
   margin: 11% auto 0 auto;
