@@ -3,6 +3,36 @@
         margin: 0;
     }
 
+    .spinner
+    {
+        display: grid;
+        place-items: center;
+        position: fixed;
+        background-color: white;
+        height: 100vh;
+        inset: 0px;
+        z-index: 3;
+        opacity: 1;
+        animation: AnimSpinner 1800ms forwards;
+    }
+    
+    @keyframes AnimSpinner  /* timing affichage spinner : Les réglages conviennent */
+    {
+    
+        from
+    
+        {
+            transform: scale(5);
+        }
+    
+    
+        to
+        {
+            visibility: hidden;
+        }
+    
+    }
+
     .logo_OMF
     {
         width: 41%;
