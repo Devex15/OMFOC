@@ -326,38 +326,38 @@ nav img {
     transform: scale(1);
   }
 }
-.MainPages .CardPlat .CardPLat__specifite {
+.MainPages .CardPlat .CardPlat__specificite {
   display: flex;
   overflow: hidden;
 }
-.MainPages .CardPlat .CardPLat__specifite .CardPlat__ContPlat {
+.MainPages .CardPlat .CardPlat__specificite .CardPlat__ContPlat {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   padding: 11px;
 }
-.MainPages .CardPlat .CardPLat__specifite .CardPlat__ContPlat p {
+.MainPages .CardPlat .CardPlat__specificite .CardPlat__ContPlat p {
   margin: 0;
   font-family: "Roboto_Bold";
   font-size: 0.9rem;
 }
-.MainPages .CardPlat .CardPLat__specifite .CardPlat__ContPlat .CardPLat__Principal {
+.MainPages .CardPlat .CardPlat__specificite .CardPlat__ContPlat .CardPLat__Principal {
   padding-bottom: 2px;
 }
-.MainPages .CardPlat .CardPLat__specifite .CardPlat__ContPlat .CardPLat__Legumes {
+.MainPages .CardPlat .CardPlat__specificite .CardPlat__ContPlat .CardPLat__Legumes {
   font-family: "Roboto-Extralight";
   font-size: 0.9rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.MainPages .CardPlat .CardPLat__specifite .CardPlat__Prix {
+.MainPages .CardPlat .CardPlat__specificite .CardPlat__Prix {
   margin-left: auto;
   display: flex;
   align-items: flex-end;
   padding: 13px;
 }
-.MainPages .CardPlat .CardPLat__specifite .CardPlat__Check {
+.MainPages .CardPlat .CardPlat__specificite .CardPlat__Check {
   display: grid;
   place-items: center;
   color: white;
@@ -366,7 +366,7 @@ nav img {
   margin-right: -50px;
   width: 50px;
 }
-.MainPages .CardPlat .CardPLat__specifite .CardPlat__Check .fa-check-circle {
+.MainPages .CardPlat .CardPlat__specificite .CardPlat__Check .fa-check-circle {
   color: white;
   font-size: 16px;
 }
