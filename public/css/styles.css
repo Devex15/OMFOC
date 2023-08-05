@@ -122,8 +122,8 @@ a .btn_header {
   width: 63%;
   box-shadow: 5px 5px 5px #e8e8e8;
 }
-a .btn_header:hoover {
-  background: linear-gradient(to bottom right, #d9c4f3, #fffeff);
+a .btn_header:hover {
+  background: linear-gradient(to bottom right, #985ede, #ff83dd);
   box-shadow: #b5b5b5;
 }
 
@@ -448,8 +448,8 @@ nav img {
   width: 46%;
   box-shadow: 5px 5px 5px #e8e8e8;
 }
-.MainPages a .BtnCommander:hoover {
-  background: linear-gradient(to bottom right, #d9c4f3, #fffeff);
+.MainPages a .BtnCommander:hover {
+  background: linear-gradient(to bottom right, #985ede, #ff83dd);
   box-shadow: #b5b5b5;
 }
 .MainPages .DelayAffich200ms {
