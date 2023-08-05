@@ -93,17 +93,29 @@
         
     }
 
-.btn_header
-    {
-        margin: auto;
-        padding: 15px 0 15px 0;
-        background: linear-gradient(to bottom right, $Couleur_secondaire, $Couleur_premiere);
-        font-family: $Police-textenormal;
-        font-size: 1.1rem;
+    a
+    {  
+        text-decoration: none;
         color: white;
-        border-radius: 28px;
-        width: 63%;
-        box-shadow: 5px 5px 5px #e8e8e8;
+
+        .btn_header
+        {
+            margin: auto;
+            padding: 15px 0 15px 0;
+            font-family: $Police-textenormal;
+            background: $degrade;
+            font-size: 1.1rem;
+            border-radius: 28px;
+            width: 63%;
+            box-shadow: 5px 5px 5px #e8e8e8;
+            
+            &:hoover
+            {
+                background: $degrade_claire;
+                box-shadow: darken(#e8e8e8, 20%)
+            }
+
+        }
     }
 
 header h2

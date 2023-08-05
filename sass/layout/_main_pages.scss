@@ -159,21 +159,29 @@
         }
     }
 
-
-    
-    
-    .BtnCommander
+    a
     {
-        margin: 11% auto 0 auto;
-        padding: 15px 0 15px 0;
-        background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-        font-family: "Roboto_Regular";
-        font-size: 1rem;
-        text-align: center;
+        text-decoration: none;
         color: white;
-        border-radius: 28px;
-        width: 46%;
-        box-shadow: 5px 5px 5px #e8e8e8;
+
+        .BtnCommander
+        {
+            margin: 11% auto 0 auto;
+            padding: 15px 0 15px 0;
+            background: $degrade;
+            font-family: "Roboto_Regular";
+            font-size: 1rem;
+            text-align: center;
+            border-radius: 28px;
+            width: 46%;
+            box-shadow: 5px 5px 5px #e8e8e8;
+            
+            &:hoover
+            {
+                background: $degrade_claire;
+                box-shadow: darken(#e8e8e8, 20%)
+            }
+        }
     }
 
     .DelayAffich200ms
