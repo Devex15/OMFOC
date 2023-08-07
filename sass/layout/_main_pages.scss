@@ -60,6 +60,8 @@
         border-radius: 13px 15px 13px 13px;
         box-shadow: 1px 4px 4px 4px #e8e8e8;
         animation: affichage 1s linear;
+        display: flex;
+        overflow: hidden;
 
         @keyframes affichage
         {
@@ -74,67 +76,60 @@
             }
         }
 
-        .CardPlat__specificite
+        .CardPlat__ContPlat
         {
-            display: flex;
             overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            padding: 11px;
 
-            .CardPlat__ContPlat
+            p
             {
+                margin: 0;
+                font-family: $Police-textegras;
+                font-size: 0.9rem;
+            }
+
+            .CardPLat__Principal
+            {
+                padding-bottom: 2px;
+            }
+
+            .CardPLat__Legumes
+            {
+                font-family: $Police-texteextralight;
+                font-size: 0.9rem;
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
-                padding: 11px;
-
-                p
-                {
-                    margin: 0;
-                    font-family: $Police-textegras;
-                    font-size: 0.9rem;
-                }
-
-                .CardPLat__Principal
-                {
-                    padding-bottom: 2px;
-                }
-
-                .CardPLat__Legumes
-                {
-                    font-family: $Police-texteextralight;
-                    font-size: 0.9rem;
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                }
             }
+        }
 
-            .CardPlat__Prix
-            {
-                margin-left: auto;
-                display: flex;
-                align-items: flex-end;
-                padding: 13px;
-            }
+        .CardPlat__Prix
+        {
+            margin-left: auto;
+            display: flex;
+            align-items: flex-end;
+            padding: 13px;
+         }
 
-            .CardPlat__Check
+        .CardPlat__Check
+        {
+            display: grid;
+            place-items: center;
+            color: white;
+            background-color: #a1f4de;
+            border-radius: 0px 13px 13px 0px;
+            margin-right: -50px;
+            width: 50px;
+
+            .fa-check-circle
             {
-                display: grid;
-                place-items: center;
                 color: white;
-                background-color: #a1f4de;
-                border-radius: 0px 13px 13px 0px;
-                margin-right: -50px;
-                width: 50px;
-
-                .fa-check-circle
-                {
-                    color: white;
-                    font-size: 16px;
-                }
+                font-size: 16px;
             }
         }
     }
-
     .CardPlat:hover .CardPlat__Check
     {
         transition: all 400ms;  /* revoir les transitions : gros doutes */   /* pas de width , pas de linear car pas d'animation soft */ 
