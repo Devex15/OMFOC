@@ -123,8 +123,8 @@ a .btn_header {
   box-shadow: 5px 5px 5px #e8e8e8;
 }
 a .btn_header:hover {
-  background: linear-gradient(to bottom right, #985ede, #ff83dd);
-  box-shadow: #b5b5b5;
+  background: linear-gradient(to bottom right, #ff83dd, #985ede);
+  box-shadow: 5px 5px 5px #d9d9d9;
 }
 
 header h2 {
@@ -449,8 +449,8 @@ nav img {
   box-shadow: 5px 5px 5px #e8e8e8;
 }
 .MainPages a .BtnCommander:hover {
-  background: linear-gradient(to bottom right, #985ede, #ff83dd);
-  box-shadow: #b5b5b5;
+  background: linear-gradient(to bottom right, #ff83dd, #985ede);
+  box-shadow: 5px 5px 5px #b5b5b5;
 }
 .MainPages .DelayAffich200ms {
   animation-delay: 200ms;

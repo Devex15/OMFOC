@@ -4,7 +4,7 @@ $couleur_tertiaire: #99E2D0;
 $Couleur_premiereClaire: lighten($Couleur_premiere, 2%);
 $Couleur_secondaireClaire: lighten($Couleur_secondaire, 2%);
 $degrade: linear-gradient(to bottom right, $Couleur_secondaire, $Couleur_premiere);
-$degrade_claire: linear-gradient(to bottom right, $Couleur_premiereClaire, $Couleur_secondaireClaire);
+$degrade_claire: linear-gradient(to bottom right, $Couleur_secondaireClaire, $Couleur_premiereClaire);
 
 $Police-grostitres: "Shrikhand";
 $Police-titres: "Roboto_Black";
