@@ -2,22 +2,30 @@
     {
         display: flex;
         justify-content: flex-start;
+    }
 
-            .lien
-            {
-                text-align: center;
-                font-size: 1.1rem;
-                width: 16%;
-                height: 69px;
-                line-height: 69px;
-            }
+    .lien
+    {
+        text-align: center;
+        font-size: 1.1rem;
+        width: 16%;
+        height: 69px;
+        line-height: 72px;
+        margin-left: 18px;
 
-            img
-            {
-                background-image: url(./images/ohmyfood.png);
-                width:41%;        
-                margin: 6% 29% 5% 15%
-            }
+        a
+        {
+            color: black; 
+        }
+
+    }
+
+
+    img
+    {
+        background-image: url(./images/ohmyfood.png);
+        width:161px;        
+        margin: 6% 29% 5% 15%
     }
 
     .Banniere_ALaFrancaise
