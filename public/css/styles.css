@@ -48,6 +48,7 @@ body {
   inset: 0px;
   z-index: 3;
   opacity: 1;
+  color: #9356DC;
   animation: AnimSpinner 1800ms forwards;
 }
 
@@ -60,7 +61,7 @@ body {
   }
 }
 .logo_OMF {
-  width: 41%;
+  width: 43%;
   display: block;
   margin: 21px auto 18px auto;
 }
@@ -98,14 +99,14 @@ input {
 .Entete h1 {
   margin: 0;
   font-family: "Roboto_Black";
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   padding: 11% 13% 0 13%;
 }
 .Entete p {
   margin: 0;
-  padding: 16px 13px 33px 13px;
+  padding: 17px 13px 33px 13px;
   font-family: "Roboto-Extralight";
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 a {
@@ -131,7 +132,7 @@ header h2 {
   font-family: "Roboto_Black";
   font-size: 1.6rem;
   margin: 0;
-  padding: 43px 0px 31px 16px;
+  padding: 44px 0px 31px 16px;
 }
 
 .btn_fonctionnement {
@@ -177,12 +178,12 @@ header h2 {
 
 main {
   background-color: #F7F7F7;
-  margin-top: 16%;
+  margin-top: 15%;
   padding-bottom: 16%;
 }
 main h2 {
   font-family: "Roboto_Black";
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   padding: 14% 0 0 5%;
 }
 
@@ -207,7 +208,7 @@ a {
   width: 27%;
   margin: 0;
   font-family: "Roboto_Bold";
-  font-size: 1rem;
+  font-size: 0.9rem;
   height: 29px;
   text-align: center;
   line-height: 31px;
@@ -224,7 +225,7 @@ a {
 .CardRestau_index .img_restau_index {
   width: 100%;
   object-fit: cover;
-  max-height: 192px;
+  max-height: 189px;
   border-radius: 15px 15px 0 0;
   margin: 0;
 }
@@ -256,10 +257,12 @@ a {
   padding-right: 25px;
   color: white;
   -webkit-text-stroke: 1px black;
+  font-size: 22px;
 }
 .CardRestau_index .InfoRestau_index div .remplissage {
   position: absolute;
-  right: 36px;
+  right: 19px;
+  bottom: 28px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px black;
 }
@@ -267,12 +270,12 @@ a {
   animation: coeur_remplis 400ms linear forwards;
 }
 @keyframes coeur_remplis {
-  0% {
+  from {
     background: linear-gradient(180deg, #F2F2F2 90%, #9356DC 10%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  100% {
+  to {
     background: linear-gradient(45deg, #FF79DA 90%, #9356DC 10%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
