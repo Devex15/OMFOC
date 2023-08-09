@@ -343,7 +343,28 @@ img {
     line-height: 119px;
   }
   .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
-    height: 441px;
+    height: 381px;
+  }
+}
+@media all and (min-width: 850px) and (max-width: 2559px) {
+  .lien {
+    font-size: 1.5rem;
+    line-height: 161px;
+  }
+  .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
+    height: 564px;
+  }
+}
+@media all and (min-width: 2559px) {
+  body {
+    margin: 0 450px 0 450px;
+  }
+  .lien {
+    font-size: 1.5rem;
+    line-height: 229px;
+  }
+  .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
+    height: 534px;
   }
 }
 .MainPages {
@@ -511,7 +532,7 @@ img {
   animation-delay: 2000ms;
 }
 
-@media all and (min-width: 426px) and (max-width: 769px) {
+@media all and (min-width: 426px) and (max-width: 850px) {
   .MainPages .CardRestau_index {
     width: 69%;
   }
@@ -523,6 +544,26 @@ img {
   .MainPages .CardPlat {
     width: 400px;
     margin: 0 auto 15px auto;
+  }
+}
+@media all and (min-width: 850px) and (max-width: 2561px) {
+  .MainPages {
+    padding-bottom: 9%;
+  }
+  .MainPages .SectionPages {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .MainPages .CardPlat {
+    width: 400px;
+    margin: 26px;
+  }
+  .MainPages a .BtnCommander {
+    width: 386px;
+    margin: 6% auto 0 auto;
   }
 }
 footer {

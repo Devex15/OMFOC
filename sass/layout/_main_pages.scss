@@ -233,7 +233,7 @@
     }
 }
 
-@media all and (min-width:426px) and (max-width:769px)
+@media all and (min-width:426px) and (max-width:850px)
 {
 
     .MainPages
@@ -256,5 +256,37 @@
             margin: 0 auto 15px auto;
         }
 
+    }
+}
+
+@media all and (min-width:850px) and (max-width:2561px)
+{
+
+    .MainPages
+    {
+        padding-bottom: 9%;
+        .SectionPages
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .CardPlat
+        {
+            width: 400px;
+            margin: 26px;
+        }
+
+        a
+            {
+                .BtnCommander
+                {
+                width: 386px;
+                margin: 6% auto 0 auto;
+                }
+            }
     }
 }
