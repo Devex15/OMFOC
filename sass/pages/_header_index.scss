@@ -3,6 +3,21 @@ body
     margin: 0;
 }
 
+/* 1 média query concernant le main sur les tablettes en entête des styles */
+@media all and (min-width:426px) and (max-width:769px)
+{
+    .btn_fonctionnement
+    {
+        margin: 0 61px 0 61px;
+
+        .btn_ordre
+        {
+            margin-left: 66px;
+        }
+    }
+}
+
+
 .spinner
 {
     display: grid;

@@ -39,6 +39,15 @@ body {
   margin: 0;
 }
 
+/* 1 média query concernant le main sur les tablettes en entête des styles */
+@media all and (min-width: 426px) and (max-width: 769px) {
+  .btn_fonctionnement {
+    margin: 0 61px 0 61px;
+  }
+  .btn_fonctionnement .btn_ordre {
+    margin-left: 66px;
+  }
+}
 .spinner {
   display: grid;
   place-items: center;
@@ -193,7 +202,6 @@ a {
 
 .CardRestau_index {
   width: 93%;
-  margin: auto;
   background-color: white;
   margin: 5% auto 5% auto;
   border-radius: 15px;
@@ -329,6 +337,15 @@ img {
   background-size: cover;
 }
 
+@media all and (min-width: 426px) and (max-width: 769px) {
+  .lien {
+    font-size: 1.5rem;
+    line-height: 119px;
+  }
+  .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
+    height: 441px;
+  }
+}
 .MainPages {
   margin-top: -16%;
   background-color: #F7F7F7;
@@ -399,6 +416,9 @@ img {
 }
 .MainPages .CardPlat .CardPlat__ContPlat .CardPLat__Principal {
   padding-bottom: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .MainPages .CardPlat .CardPlat__ContPlat .CardPLat__Legumes {
   font-family: "Roboto-Extralight";
@@ -491,6 +511,20 @@ img {
   animation-delay: 2000ms;
 }
 
+@media all and (min-width: 426px) and (max-width: 769px) {
+  .MainPages .CardRestau_index {
+    width: 69%;
+  }
+  .MainPages .SectionPages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .MainPages .CardPlat {
+    width: 400px;
+    margin: 0 auto 15px auto;
+  }
+}
 footer {
   background-color: #353535;
   color: white;

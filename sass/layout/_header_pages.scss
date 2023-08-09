@@ -42,17 +42,33 @@
             background-size: cover;
         }
 
-    .Banniere_LaPaletteDuGout
+        .Banniere_LaPaletteDuGout
         {
             background-image: url(../../images/images_index/La_palette_du_gout.jpg);
             height: 200px;
             background-size: cover;
         }
 
-    .Banniere_LeDeliceDesSens
+        .Banniere_LeDeliceDesSens
         {
             background-image: url(../../images/images_index/Le_delice_des_sens.jpg);
             height: 200px;
             background-size: cover;
         }
-    
+
+
+    @media all and (min-width:426px) and (max-width:769px)
+        {
+            .lien
+            {
+                font-size: 1.5rem;
+                line-height: 119px;
+            }
+
+            .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens
+            {
+                height: 441px
+            }
+
+        }
+        

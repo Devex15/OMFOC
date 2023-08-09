@@ -93,6 +93,9 @@
             .CardPLat__Principal
             {
                 padding-bottom: 2px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
             }
 
             .CardPLat__Legumes
@@ -227,5 +230,31 @@
     .DelayAffich2000ms
     {
         animation-delay: 2000ms;
+    }
+}
+
+@media all and (min-width:426px) and (max-width:769px)
+{
+
+    .MainPages
+    {
+        .CardRestau_index
+        {
+            width: 69%;
+        }
+    
+        .SectionPages
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .CardPlat
+        {
+            width: 400px;
+            margin: 0 auto 15px auto;
+        }
+
     }
 }
