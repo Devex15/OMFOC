@@ -140,3 +140,14 @@ header h2
         margin: 0;
         padding: 44px 0px 31px 16px; 
     }
+
+    @media all and (min-width: 1441px) and (max-width:2561px)
+    {
+        .btn_fonctionnement
+        {    
+            .btn_ordre
+            {
+                margin-left: 513px;
+            }
+        }
+    }
