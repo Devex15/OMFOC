@@ -113,7 +113,7 @@ a {
   text-decoration: none;
   color: white;
 }
-a .btn_header {
+a .BtnExploration {
   margin: auto;
   padding: 15px 0 15px 0;
   font-family: "Roboto_Regular";
@@ -123,7 +123,7 @@ a .btn_header {
   width: 63%;
   box-shadow: 5px 5px 5px #e8e8e8;
 }
-a .btn_header:hover {
+a .BtnExploration:hover {
   background: linear-gradient(to bottom right, #ff83dd, #985ede);
   box-shadow: 5px 5px 5px #d9d9d9;
 }
@@ -178,38 +178,42 @@ header h2 {
 }
 
 @media all and (min-width: 426px) and (max-width: 769px) {
-  .btn_fonctionnement {
-    margin: 0 61px 0 61px;
-  }
-  .btn_fonctionnement .btn_ordre {
-    margin-left: 66px;
-  }
-}
-@media all and (min-width: 769px) and (max-width: 1026px) {
-  a .btn_header {
+  a .BtnExploration {
     width: 41%;
   }
-  .btn_fonctionnement .btn_ordre {
-    margin-left: 178px;
+  .BtnFnctment {
+    width: 384px; /* style identique avec les écrans pc 1024 : ne faire qu'un média quéry*/
+    margin: auto;
   }
-  .btn_fonctionnement p {
-    width: 61%;
+  .BtnFnctment .BtnFnctment__ordre {
+    left: auto; /* style identique avec les écrans pc 1024 : ne faire qu'un média quéry*/
+    margin-left: 5px;
   }
 }
-@media all and (min-width: 1026px) and (max-width: 1441px) {
-  a .btn_header {
-    width: 41%;
+@media all and (min-width: 769px) and (max-width: 2561px) {
+  .Entete {
+    padding-bottom: 9%;
   }
-  .btn_fonctionnement .btn_ordre {
-    margin-left: 261px;
+  .Entete h1 {
+    padding-top: 5%;
   }
-  .btn_fonctionnement p {
-    width: 61%;
+  .BtnFnctment {
+    width: 384px; /* style identique avec les écrans pc 1024 : ne faire qu'un média quéry*/
+    margin: auto;
+  }
+  .BtnFnctment .BtnFnctment__ordre {
+    left: auto; /* style identique avec les écrans pc 1024 : ne faire qu'un média quéry*/
+    margin-left: 5px;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1441px) {
+  a .BtnExploration {
+    width: 29%;
   }
 }
 @media all and (min-width: 1441px) and (max-width: 2561px) {
-  .btn_fonctionnement .btn_ordre {
-    margin-left: 513px;
+  a .BtnExploration {
+    width: 38%;
   }
 }
 main {
@@ -317,8 +321,15 @@ a {
   }
 }
 
-@media all and (min-width: 766px) and (max-width: 2561px) {
-  .RestaurantsIndex {
+@media all and (min-width: 767px) and (max-width: 2561px) {
+  main {
+    margin-top: 6%;
+    padding-bottom: 9%;
+  }
+  main h2 {
+    padding-top: 6%;
+  }
+  main .RestaurantsIndex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -326,9 +337,17 @@ a {
     margin: 0;
     padding: 0;
   }
-  .RestaurantsIndex .CardRestau_index {
-    width: 400px;
-    margin: 16px;
+}
+@media all and (min-width: 767px) and (max-width: 1026px) {
+  .CardRestau_index {
+    width: 348px;
+    margin: 11px;
+  }
+}
+@media all and (min-width: 1026px) and (max-width: 2561px) {
+  .CardRestau_index {
+    width: 562px;
+    margin: 28px;
   }
 }
 @media all and (min-width: 1441px) and (max-width: 2561px) {

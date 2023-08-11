@@ -140,24 +140,48 @@ a
     }
 }
 
-@media all and (min-width:766px) and (max-width:2561px)
+@media all and (min-width:767px) and (max-width:2561px)
 {
-    .RestaurantsIndex
-    { 
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;  
-        width: 100%;
-        margin: 0;
-        padding: 0;
+    main
+    {
+        margin-top: 6%;
+        padding-bottom: 9%;
 
-        .CardRestau_index
+        h2
         {
-            width: 400px;
-            margin: 16px;
+            padding-top: 6%;
+        }
+
+        .RestaurantsIndex
+        { 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;  
+            width: 100%;
+            margin: 0;
+            padding: 0;
         }
     }
 }
+
+@media all and (min-width:767px) and (max-width: 1026px)
+{
+        .CardRestau_index
+        {
+            width: 348px;
+            margin: 11px;
+        }
+}
+
+@media all and (min-width:1026px) and (max-width: 2561px)
+{
+        .CardRestau_index
+        {
+            width: 562px;
+            margin: 28px;
+        }
+}
+
 
 @media all and (min-width: 1441px) and (max-width:2561px)
 {
