@@ -3,7 +3,7 @@ footer
     background-color: #353535;
     color: white;
     padding-bottom: 28px;
-    
+
     p
     {
         font-family: $Police-grostitres; 
@@ -11,35 +11,37 @@ footer
         margin: 0;
         padding: 6% 0 5% 9%;
     }
+}
 
-    ul
+ul
+{
+    list-style: none;
+    margin: 0 0 0 8%;
+    padding: 0;
+
+    li
     {
-        list-style: none;
-        margin: 0 0 0 8%;
-        padding: 0;
+        padding-bottom: 7px;
+    }
 
-        li
+    a
+    {
+        text-decoration: none;
+        color: white;
+        font-family: $Police-textenormal;
+        font-size: 1.1rem;
+
+        i
         {
-            padding-bottom: 7px;
+            padding-right: 6px;
+           font-size: 0.9rem;
         }
 
-            a
-            {
-                text-decoration: none;
-                color: white;
-                font-family: $Police-textenormal;
-                font-size: 1.1rem;
-
-                i
-                {
-                    padding-right: 6px;
-                    font-size: 0.9rem;
-                }
-
-                .fa-handshake-angle
-                {
-                    font-size: 0.7rem;
-                }
-            }
+        .fa-handshake-angle
+        {
+            font-size: 0.7rem;
+        }
     }
+        
 }
+

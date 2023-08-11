@@ -3,21 +3,6 @@ body
     margin: 0;
 }
 
-/* 1 média query concernant le main sur les tablettes en entête des styles */
-@media all and (min-width:426px) and (max-width:769px)
-{
-    .btn_fonctionnement
-    {
-        margin: 0 61px 0 61px;
-
-        .btn_ordre
-        {
-            margin-left: 66px;
-        }
-    }
-}
-
-
 .spinner
 {
     display: grid;
@@ -140,6 +125,120 @@ header h2
         margin: 0;
         padding: 44px 0px 31px 16px; 
     }
+
+.BtnFnctment
+{
+    display: flex;
+        
+    .BtnFnctment__ordre
+    {
+        width: 27px;
+        height:27px;
+        border-radius: 14px;
+        background-color: $Couleur_premiere;
+        font-family: $Police-textenormal;
+        font-size: 0.9rem;
+        color: white;
+        text-align: center;
+        line-height: 29px;
+        margin-top: 26px;
+        position: absolute;
+        left: 11px;
+    }
+    
+    .BtnFnctment__Info
+    {
+        margin: auto auto 25px auto;
+        background-color: #F7F7F7;
+        border-radius: 25px;
+        width: 91%;
+        height: 79px;
+        line-height: 79px;
+        font-family: $Police-textegras;
+        font-size: 1.1rem;
+        text-align: center;
+        box-shadow: 5px 5px 5px #e8e8e8;  
+    
+        i
+        {
+            font-size: 1.3rem;
+            padding-right: 20px;
+            color: #7E7E7E;
+        }
+                
+        &:hover
+        {
+            background-color:#F5EDFF;
+            color: $Couleur_premiere;
+
+            i
+            {
+                color: $Couleur_premiere;
+            }
+        }
+    }
+}
+
+@media all and (min-width:426px) and (max-width:769px)
+{
+    .btn_fonctionnement
+    {
+        margin: 0 61px 0 61px;
+
+        .btn_ordre
+        {
+            margin-left: 66px;
+        }
+    }
+}
+
+@media all and (min-width: 769px) and (max-width:1026px)
+{
+    a
+    {
+        .btn_header
+        {
+            width: 41%;
+        }
+    }
+
+    .btn_fonctionnement
+    {    
+        .btn_ordre
+        {
+            margin-left: 178px;
+        }
+
+        p
+        {
+            width: 61%;
+        }
+    }
+}
+
+@media all and (min-width: 1026px) and (max-width:1441px)
+{
+    a
+    {
+        .btn_header
+        {
+            width: 41%;
+        }
+    }
+    
+    .btn_fonctionnement
+    {    
+        .btn_ordre
+        {
+            margin-left: 261px;
+        }
+
+        p
+        {
+            width: 61%;
+        }
+    }
+}
 
     @media all and (min-width: 1441px) and (max-width:2561px)
     {

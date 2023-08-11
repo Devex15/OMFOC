@@ -39,15 +39,6 @@ body {
   margin: 0;
 }
 
-/* 1 média query concernant le main sur les tablettes en entête des styles */
-@media all and (min-width: 426px) and (max-width: 769px) {
-  .btn_fonctionnement {
-    margin: 0 61px 0 61px;
-  }
-  .btn_fonctionnement .btn_ordre {
-    margin-left: 66px;
-  }
-}
 .spinner {
   display: grid;
   place-items: center;
@@ -144,15 +135,10 @@ header h2 {
   padding: 44px 0px 31px 16px;
 }
 
-@media all and (min-width: 1441px) and (max-width: 2561px) {
-  .btn_fonctionnement .btn_ordre {
-    margin-left: 513px;
-  }
-}
-.btn_fonctionnement {
+.BtnFnctment {
   display: flex;
 }
-.btn_fonctionnement .btn_ordre {
+.BtnFnctment .BtnFnctment__ordre {
   width: 27px;
   height: 27px;
   border-radius: 14px;
@@ -166,7 +152,7 @@ header h2 {
   position: absolute;
   left: 11px;
 }
-.btn_fonctionnement p {
+.BtnFnctment .BtnFnctment__Info {
   margin: auto auto 25px auto;
   background-color: #F7F7F7;
   border-radius: 25px;
@@ -178,18 +164,54 @@ header h2 {
   text-align: center;
   box-shadow: 5px 5px 5px #e8e8e8;
 }
-.btn_fonctionnement p i {
+.BtnFnctment .BtnFnctment__Info i {
   font-size: 1.3rem;
   padding-right: 20px;
   color: #7E7E7E;
 }
-.btn_fonctionnement p:hover {
+.BtnFnctment .BtnFnctment__Info:hover {
   background-color: #F5EDFF;
+  color: #9356DC;
 }
-.btn_fonctionnement p:hover i {
+.BtnFnctment .BtnFnctment__Info:hover i {
   color: #9356DC;
 }
 
+@media all and (min-width: 426px) and (max-width: 769px) {
+  .btn_fonctionnement {
+    margin: 0 61px 0 61px;
+  }
+  .btn_fonctionnement .btn_ordre {
+    margin-left: 66px;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1026px) {
+  a .btn_header {
+    width: 41%;
+  }
+  .btn_fonctionnement .btn_ordre {
+    margin-left: 178px;
+  }
+  .btn_fonctionnement p {
+    width: 61%;
+  }
+}
+@media all and (min-width: 1026px) and (max-width: 1441px) {
+  a .btn_header {
+    width: 41%;
+  }
+  .btn_fonctionnement .btn_ordre {
+    margin-left: 261px;
+  }
+  .btn_fonctionnement p {
+    width: 61%;
+  }
+}
+@media all and (min-width: 1441px) and (max-width: 2561px) {
+  .btn_fonctionnement .btn_ordre {
+    margin-left: 513px;
+  }
+}
 main {
   background-color: #F7F7F7;
   margin-top: 15%;
@@ -601,25 +623,26 @@ footer p {
   margin: 0;
   padding: 6% 0 5% 9%;
 }
-footer ul {
+
+ul {
   list-style: none;
   margin: 0 0 0 8%;
   padding: 0;
 }
-footer ul li {
+ul li {
   padding-bottom: 7px;
 }
-footer ul a {
+ul a {
   text-decoration: none;
   color: white;
   font-family: "Roboto_Regular";
   font-size: 1.1rem;
 }
-footer ul a i {
+ul a i {
   padding-right: 6px;
   font-size: 0.9rem;
 }
-footer ul a .fa-handshake-angle {
+ul a .fa-handshake-angle {
   font-size: 0.7rem;
 }
 
