@@ -73,6 +73,7 @@
             to
             {
                 transform: scale(1);
+                box-shadow: 1px 4px 4px 4px #e8e8e8;
             }
         }
 
@@ -238,33 +239,7 @@
 
     .MainPages
     {
-        .CardRestau_index
-        {
-            width: 69%;
-        }
-    
-        .SectionPages
-        {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-
-        .CardPlat
-        {
-            width: 400px;
-            margin: 0 auto 15px auto;
-        }
-
-    }
-}
-
-@media all and (min-width:850px) and (max-width:2561px)
-{
-
-    .MainPages
-    {
-        padding-bottom: 9%;
+   
         .SectionPages
         {
             display: flex;
@@ -276,8 +251,38 @@
 
         .CardPlat
         {
-            width: 400px;
-            margin: 26px;
+            width: 336px;
+            margin: 15px;
+        }
+
+    }
+}
+
+@media all and (min-width:850px) and (max-width:2561px)
+{
+
+    .MainPages
+    {
+        padding-bottom: 9%;
+
+        .SectionPages
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .SousTitre_surlignage
+        {
+            width: 8%;
+        }
+
+        .CardPlat
+        {
+            width: 331px;
+            margin: 15px auto 11px auto;
         }
 
         a
