@@ -98,13 +98,20 @@ a
 
         div
         {
+
             i
             {
                 padding-right: 25px;
                 color:white;
                 -webkit-text-stroke: 1px black;
                 font-size: 22px;
-            }
+                transition: all 400ms linear;
+
+                &:hover
+                { 
+                    -webkit-text-stroke: 0.5px #FF79DA;
+                } 
+            } 
 
             .remplissage 
             {
@@ -112,7 +119,6 @@ a
                 right: 19px;
                 bottom: 28px;
                 -webkit-text-fill-color: transparent;
-                -webkit-text-stroke: 1px black;
             }
 
             .remplissage:hover
@@ -124,16 +130,18 @@ a
             {
                 from
                 {
-                    background: linear-gradient(180deg, #F2F2F2 90%, #9356DC 10%);
+                    background: linear-gradient(180deg, #F2F2F2 90%, $Couleur_premiere 10%);
                     -webkit-background-clip: text ;
                     -webkit-text-fill-color: transparent;
+                    -webkit-text-stroke: 1px black;
                 }
 
                 to
                 {
-                    background: linear-gradient(45deg, #FF79DA 90%, #9356DC 10%);
+                    background: linear-gradient(180deg, $Couleur_VioletCoeur 10%, #FF79DA 90%);
                     -webkit-background-clip: text ;
                     -webkit-text-fill-color: transparent;
+                    -webkit-text-stroke: 1px #FF79DA;
                 }
             }
         }
@@ -164,16 +172,19 @@ a
     }
 }
 
-@media all and (min-width:767px) and (max-width: 1026px)
+@media all and (min-width:767px) and (max-width: 1025px)
 {
+    a
+    {
         .CardRestau_index
         {
             width: 348px;
             margin: 11px;
         }
+    }
 }
 
-@media all and (min-width:1026px) and (max-width: 2561px)
+@media all and (min-width:1025px) and (max-width: 2561px)
 {
         .CardRestau_index
         {
