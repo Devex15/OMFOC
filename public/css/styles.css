@@ -297,10 +297,10 @@ a {
   color: white;
   -webkit-text-stroke: 1px black;
   font-size: 22px;
-  transition: all 400ms linear;
+  transition: all 2ms linear;
 }
 .CardRestau_index .InfoRestau_index div i:hover {
-  -webkit-text-stroke: 0.5px #FF79DA;
+  -webkit-text-stroke: 0.1px transparent;
 }
 .CardRestau_index .InfoRestau_index div .remplissage {
   position: absolute;
