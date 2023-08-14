@@ -1,10 +1,10 @@
 .MainPages
 {
-    margin-top: -16%;
+    margin-top: -13%;
     background-color: #F7F7F7;
     width: 100%;
     border-radius: 39px 39px 0 0;
-    padding-bottom: 16%;
+    padding-bottom: 14%;
 
     .TitrePrincipal_Pages
     {
@@ -14,17 +14,17 @@
 
         .TitreRestau
         {
-            font-size: 1.7rem;
+            font-size: 1.8rem;
             font-weight: 400;
             font-family: $Police-grostitres;
-            padding: 28px 0 0 18px;
+            padding: 31px 0 0 18px;
             margin: 0;
         }
 
         i
         {
             padding: 38px 33px 0 0;
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             color: white;
             -webkit-text-stroke: 1px black;
         }
@@ -41,8 +41,9 @@
 
     .SousTitre_surlignage
     {
-       margin: 8px 0 9px 9px;
-       width: 11%;
+       
+       margin: 6px 0 13px 9px;
+       width: 41px;
        height: 1%;
        border: 2px solid $couleur_tertiaire;
     }
@@ -82,18 +83,18 @@
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
-            padding: 11px;
+            padding: 13px 11px 13px 11px;
 
             p
             {
                 margin: 0;
                 font-family: $Police-textegras;
-                font-size: 0.9rem;
+                font-size: 1.1rem;
             }
 
             .CardPLat__Principal
             {
-                padding-bottom: 2px;
+                padding-bottom: 4px;
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
@@ -102,7 +103,7 @@
             .CardPLat__Legumes
             {
                 font-family: $Police-texteextralight;
-                font-size: 0.9rem;
+                font-size: 1rem;
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
@@ -114,7 +115,8 @@
             margin-left: auto;
             display: flex;
             align-items: flex-end;
-            padding: 13px;
+            padding: 11px;
+            font-family: $Police-textenormal;
          }
 
         .CardPlat__Check
@@ -124,13 +126,13 @@
             color: white;
             background-color: #a1f4de;
             border-radius: 0px 13px 13px 0px;
-            margin-right: -50px;
-            width: 50px;
+            margin-right: -58px;
+            width: 58px;
 
             .fa-check-circle
             {
                 color: white;
-                font-size: 16px;
+                font-size: 22px;
             }
         }
     }
@@ -169,10 +171,10 @@
             padding: 15px 0 15px 0;
             background: $degrade;
             font-family: "Roboto_Regular";
-            font-size: 1rem;
+            font-size: 1.1rem;
             text-align: center;
             border-radius: 28px;
-            width: 46%;
+            width: 49%;
             box-shadow: 5px 5px 5px #e8e8e8;
             
             &:hover
