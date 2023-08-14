@@ -73,7 +73,7 @@
 
         }
 
-    @media all and (min-width:850px) and (max-width:2559px)
+    @media all and (min-width:769px) and (max-width:2559px)
     {
 
         .lien
@@ -85,6 +85,15 @@
         .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens
         {
             height: 491px
+        }
+    }
+
+    @media all and (min-width: 1022px) and (max-width: 2561px)
+    {
+        .ChoixFnctment
+        {
+            display: flex;
+            justify-content: space-between;
         }
     }
 
