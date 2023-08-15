@@ -28,35 +28,6 @@
         margin: 6% 29% 5% 15%
     }
 
-    .Banniere_ALaFrancaise
-        {
-        background-image: url(../../images/images_index/A_la_francaise.jpg);
-        height: 284px;
-        background-size: cover;
-        }
-
-    .Banniere_LaNoteEnchantee
-        {
-            background-image: url(../../images/images_index/La_note_enchantee.jpg);
-            height: 287px;
-            background-size: cover;
-            background-position: center;
-        }
-
-        .Banniere_LaPaletteDuGout
-        {
-            background-image: url(../../images/images_index/La_palette_du_gout.jpg);
-            height: 264px;
-            background-size: cover;
-        }
-
-        .Banniere_LeDeliceDesSens
-        {
-            background-image: url(../../images/images_index/Le_delice_des_sens.jpg);
-            height: 264px;
-            background-size: cover;
-        }
-
 
     @media all and (min-width:426px) and (max-width:769px)
         {
@@ -64,11 +35,6 @@
             {
                 font-size: 1.5rem;
                 line-height: 119px;
-            }
-
-            .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens
-            {
-                height: 381px
             }
 
         }
@@ -80,11 +46,6 @@
         {
             font-size: 1.5rem;
             line-height: 161px;
-        }
-
-        .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens
-        {
-            height: 491px
         }
     }
 
@@ -100,11 +61,6 @@
         {
             font-size: 1.5rem;
             line-height: 229px;
-        }
-
-        .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens
-        {
-            height: 534px
         }
 }
         

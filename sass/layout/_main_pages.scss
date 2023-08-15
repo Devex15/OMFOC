@@ -1,5 +1,39 @@
 .MainPages
 {
+    margin: 0;
+}
+
+.Banniere_ALaFrancaise
+{
+background-image: url(../../images/images_index/A_la_francaise.jpg);
+height: 284px;
+background-size: cover;
+}
+
+.Banniere_LaNoteEnchantee
+{
+    background-image: url(../../images/images_index/La_note_enchantee.jpg);
+    height: 287px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Banniere_LaPaletteDuGout
+{
+    background-image: url(../../images/images_index/La_palette_du_gout.jpg);
+    height: 264px;
+    background-size: cover;
+}
+
+.Banniere_LeDeliceDesSens
+{
+    background-image: url(../../images/images_index/Le_delice_des_sens.jpg);
+    height: 264px;
+    background-size: cover;
+}
+
+.MenuPages
+{
     margin-top: -13%;
     background-color: #F7F7F7;
     width: 100%;
@@ -126,8 +160,8 @@
             color: white;
             background-color: #a1f4de;
             border-radius: 0px 13px 13px 0px;
-            margin-right: -58px;
-            width: 58px;
+            margin-right: -65px;
+            width: 65px;
 
             .fa-check-circle
             {
@@ -238,10 +272,14 @@
 
 @media all and (min-width:426px) and (max-width:850px)
 {
-
-    .MainPages
+    .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens
     {
-   
+        height: 381px;
+        background-position: center;
+    }
+
+    .MenuPages
+    {
         .SectionPages
         {
             display: flex;
@@ -263,7 +301,7 @@
 @media all and (min-width:850px) and (max-width:2561px)
 {
 
-    .MainPages
+    .MenuPages
     {
         padding-bottom: 9%;
 
@@ -295,5 +333,23 @@
                 margin: 6% auto 0 auto;
                 }
             }
+    }
+}
+
+@media all and (min-width: 850px) and (max-width: 1026px)
+{
+    .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens
+    {
+        height: 428px;
+        background-position: center;
+    }
+}
+
+@media all and (min-width: 1026px) and (max-width:2561px)
+{
+    .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens
+    {
+        height: 581px;
+        background-position: center;
     }
 }

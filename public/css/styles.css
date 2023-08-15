@@ -66,6 +66,11 @@ body {
   margin: 6% auto 4% auto;
 }
 
+@media all and (min-width: 769px) and (max-width: 2561px) {
+  .logo_OMF {
+    width: 29%;
+  }
+}
 main {
   margin-top: 4%;
 }
@@ -399,6 +404,31 @@ img {
   margin: 6% 29% 5% 15%;
 }
 
+@media all and (min-width: 426px) and (max-width: 769px) {
+  .lien {
+    font-size: 1.5rem;
+    line-height: 119px;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 2559px) {
+  .lien {
+    font-size: 1.5rem;
+    line-height: 161px;
+  }
+}
+@media all and (min-width: 2559px) {
+  body {
+    margin: 0 450px 0 450px;
+  }
+  .lien {
+    font-size: 1.5rem;
+    line-height: 229px;
+  }
+}
+.MainPages {
+  margin: 0;
+}
+
 .Banniere_ALaFrancaise {
   background-image: url(../../images/images_index/A_la_francaise.jpg);
   height: 284px;
@@ -424,77 +454,47 @@ img {
   background-size: cover;
 }
 
-@media all and (min-width: 426px) and (max-width: 769px) {
-  .lien {
-    font-size: 1.5rem;
-    line-height: 119px;
-  }
-  .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
-    height: 381px;
-  }
-}
-@media all and (min-width: 769px) and (max-width: 2559px) {
-  .lien {
-    font-size: 1.5rem;
-    line-height: 161px;
-  }
-  .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
-    height: 491px;
-  }
-}
-@media all and (min-width: 2559px) {
-  body {
-    margin: 0 450px 0 450px;
-  }
-  .lien {
-    font-size: 1.5rem;
-    line-height: 229px;
-  }
-  .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
-    height: 534px;
-  }
-}
-.MainPages {
+.MenuPages {
   margin-top: -13%;
   background-color: #F7F7F7;
   width: 100%;
   border-radius: 39px 39px 0 0;
   padding-bottom: 14%;
 }
-.MainPages .TitrePrincipal_Pages {
+.MenuPages .TitrePrincipal_Pages {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
 }
-.MainPages .TitrePrincipal_Pages .TitreRestau {
+.MenuPages .TitrePrincipal_Pages .TitreRestau {
   font-size: 1.8rem;
   font-weight: 400;
   font-family: "Shrikhand";
   padding: 31px 0 0 18px;
   margin: 0;
 }
-.MainPages .TitrePrincipal_Pages i {
+.MenuPages .TitrePrincipal_Pages i {
   padding: 38px 33px 0 0;
   font-size: 1.4rem;
   color: white;
   -webkit-text-stroke: 1px black;
 }
-.MainPages .SousTitre_Page {
+.MenuPages .SousTitre_Page {
   font-family: "Roboto-Extralight";
   font-size: 1rem;
   margin: 0;
   padding: 28px 0 0 9px;
 }
-.MainPages .SousTitre_surlignage {
+.MenuPages .SousTitre_surlignage {
   margin: 6px 0 13px 9px;
   width: 41px;
   height: 1%;
   border: 2px solid #99E2D0;
 }
-.MainPages a {
+.MenuPages a {
   text-decoration: none;
 }
-.MainPages .CardPlat {
+.MenuPages .CardPlat {
   background-color: white; /* à vérifier */
   margin: 0 15px 15px 15px;
   border-radius: 13px 15px 13px 13px;
@@ -512,55 +512,55 @@ img {
     box-shadow: 1px 4px 4px 4px #e8e8e8;
   }
 }
-.MainPages .CardPlat .CardPlat__ContPlat {
+.MenuPages .CardPlat .CardPlat__ContPlat {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   padding: 13px 11px 13px 11px;
 }
-.MainPages .CardPlat .CardPlat__ContPlat p {
+.MenuPages .CardPlat .CardPlat__ContPlat p {
   margin: 0;
   font-family: "Roboto_Bold";
   font-size: 1.1rem;
 }
-.MainPages .CardPlat .CardPlat__ContPlat .CardPLat__Principal {
+.MenuPages .CardPlat .CardPlat__ContPlat .CardPLat__Principal {
   padding-bottom: 4px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.MainPages .CardPlat .CardPlat__ContPlat .CardPLat__Legumes {
+.MenuPages .CardPlat .CardPlat__ContPlat .CardPLat__Legumes {
   font-family: "Roboto-Extralight";
   font-size: 1rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.MainPages .CardPlat .CardPlat__Prix {
+.MenuPages .CardPlat .CardPlat__Prix {
   margin-left: auto;
   display: flex;
   align-items: flex-end;
   padding: 11px;
   font-family: "Roboto_Regular";
 }
-.MainPages .CardPlat .CardPlat__Check {
+.MenuPages .CardPlat .CardPlat__Check {
   display: grid;
   place-items: center;
   color: white;
   background-color: #a1f4de;
   border-radius: 0px 13px 13px 0px;
-  margin-right: -58px;
-  width: 58px;
+  margin-right: -65px;
+  width: 65px;
 }
-.MainPages .CardPlat .CardPlat__Check .fa-check-circle {
+.MenuPages .CardPlat .CardPlat__Check .fa-check-circle {
   color: white;
   font-size: 22px;
 }
-.MainPages .CardPlat:hover .CardPlat__Check {
+.MenuPages .CardPlat:hover .CardPlat__Check {
   transition: all 400ms; /* revoir les transitions : gros doutes */ /* pas de width , pas de linear car pas d'animation soft */
   margin-right: 0;
 }
-.MainPages .CardPlat:hover .fa-check-circle {
+.MenuPages .CardPlat:hover .fa-check-circle {
   animation: rotation 400ms linear;
 }
 @keyframes rotation {
@@ -571,11 +571,11 @@ img {
     transform: rotate(0deg);
   }
 }
-.MainPages a {
+.MenuPages a {
   text-decoration: none;
   color: white;
 }
-.MainPages a .BtnCommander {
+.MenuPages a .BtnCommander {
   margin: 11% auto 0 auto;
   padding: 15px 0 15px 0;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
@@ -586,75 +586,91 @@ img {
   width: 49%;
   box-shadow: 5px 5px 5px #e8e8e8;
 }
-.MainPages a .BtnCommander:hover {
+.MenuPages a .BtnCommander:hover {
   background: linear-gradient(to bottom right, #ff83dd, #985ede);
   box-shadow: 5px 5px 5px #b5b5b5;
 }
-.MainPages .DelayAffich200ms {
+.MenuPages .DelayAffich200ms {
   animation-delay: 200ms;
 }
-.MainPages .DelayAffich400ms {
+.MenuPages .DelayAffich400ms {
   animation-delay: 400ms;
 }
-.MainPages .DelayAffich600ms {
+.MenuPages .DelayAffich600ms {
   animation-delay: 600ms;
 }
-.MainPages .DelayAffich800ms {
+.MenuPages .DelayAffich800ms {
   animation-delay: 800ms;
 }
-.MainPages .delay1000ms {
+.MenuPages .delay1000ms {
   animation-delay: 1000ms;
 }
-.MainPages .DelayAffich1200ms {
+.MenuPages .DelayAffich1200ms {
   animation-delay: 1200ms;
 }
-.MainPages .DelayAffich1400ms {
+.MenuPages .DelayAffich1400ms {
   animation-delay: 1400ms;
 }
-.MainPages .DelayAffich1600ms {
+.MenuPages .DelayAffich1600ms {
   animation-delay: 1600ms;
 }
-.MainPages .DelayAffich1800ms {
+.MenuPages .DelayAffich1800ms {
   animation-delay: 1800ms;
 }
-.MainPages .DelayAffich2000ms {
+.MenuPages .DelayAffich2000ms {
   animation-delay: 2000ms;
 }
 
 @media all and (min-width: 426px) and (max-width: 850px) {
-  .MainPages .SectionPages {
+  .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
+    height: 381px;
+    background-position: center;
+  }
+  .MenuPages .SectionPages {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  .MainPages .CardPlat {
+  .MenuPages .CardPlat {
     width: 336px;
     margin: 15px;
   }
 }
 @media all and (min-width: 850px) and (max-width: 2561px) {
-  .MainPages {
+  .MenuPages {
     padding-bottom: 9%;
   }
-  .MainPages .SectionPages {
+  .MenuPages .SectionPages {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  .MainPages .SousTitre_surlignage {
+  .MenuPages .SousTitre_surlignage {
     width: 8%;
   }
-  .MainPages .CardPlat {
+  .MenuPages .CardPlat {
     width: 331px;
     margin: 15px auto 11px auto;
   }
-  .MainPages a .BtnCommander {
+  .MenuPages a .BtnCommander {
     width: 386px;
     margin: 6% auto 0 auto;
+  }
+}
+@media all and (min-width: 850px) and (max-width: 1026px) {
+  .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
+    height: 428px;
+    background-position: center;
+  }
+}
+@media all and (min-width: 1026px) and (max-width: 2561px) {
+  .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
+    height: 581px;
+    background-position: center;
   }
 }
 footer {

@@ -39,3 +39,11 @@ body
     display: block;
     margin: 6% auto 4% auto;
 }
+
+@media all and (min-width: 769px) and (max-width: 2561px)
+{
+    .logo_OMF
+    {
+        width: 29%;
+    }
+}
