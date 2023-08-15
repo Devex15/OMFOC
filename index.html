@@ -16,7 +16,9 @@
 
     <header>
         <img src="./images/ohmyfood.png" class="logo_OMF" alt="logo_ohmyfood" />
+    </header>
 
+    <main class="index">  <!-- Revoir la classe si html des pages sur même dossier-->
         <form method="get" action="#">
             <i class="fas fa-map-marker-alt"></i>
             <input type="text" name="saisie" placeholder="votre localité" value="Paris, Belleville"/>
@@ -34,117 +36,112 @@
 
         <h2> Fonctionnement</h2>
 
-            <div class="ChoixFnctment">
-                <div class="BtnFnctment">
-                    <p class="BtnFnctment__ordre"> 1 </p>
+        <section class="ChoixFnctment">
+            <div class="BtnFnctment">
+                <p class="BtnFnctment__ordre"> 1 </p>
 
-                    <p class="BtnFnctment__Info">
-                        <i class="fa-sharp fa-solid fa-mobile-screen-button"></i>
-                        Choisissez un restaurant
-                    </p>
-                </div>
-
-
-                <div class="BtnFnctment">
-                    <p class="BtnFnctment__ordre"> 2 </p>
-
-                    <p class="BtnFnctment__Info">
-                        <i class="fa-sharp fa-solid fa-list-ul"></i>
-                        Composez votre menu
-                    </p>
-                </div>
-
-                <div class="BtnFnctment">
-                    <p class="BtnFnctment__ordre"> 3 </p>
-                 
-                    <p class="BtnFnctment__Info">
-                        <i class="fa-sharp fa-solid fa-store"></i>
-                        Dégustez au restaurant
-                    </p>
-                </div>
+                <p class="BtnFnctment__Info">
+                    <i class="fa-sharp fa-solid fa-mobile-screen-button"></i>
+                    Choisissez un restaurant
+                </p>
             </div>
-    </header>
-        
-    <main class="index"> <!-- Revoir la classe si html des pages sur même dossier-->
 
+            <div class="BtnFnctment">
+                <p class="BtnFnctment__ordre"> 2 </p>
+
+                <p class="BtnFnctment__Info">
+                    <i class="fa-sharp fa-solid fa-list-ul"></i>
+                    Composez votre menu
+                </p>
+            </div>
+
+            <div class="BtnFnctment">
+                <p class="BtnFnctment__ordre"> 3 </p>
+                 
+                <p class="BtnFnctment__Info">
+                    <i class="fa-sharp fa-solid fa-store"></i>
+                    Dégustez au restaurant
+                </p>
+            </div>
+        </section>
+        
         <h2 id="ExploreRestau">Restaurants</h2>
 
-        <div class="RestaurantsIndex">
-        <a href="./LaPaletteDuGout.html">
-            <figure class="CardRestau_index">
+        <section class="RestaurantsIndex">
+            <a href="./LaPaletteDuGout.html">
+                <figure class="CardRestau_index">
             
-                <img src="./images/images_index/La_palette_du_gout.jpg" class="img_restau_index" alt="La_palette_du_gout"/>
+                    <img src="./images/images_index/La_palette_du_gout.jpg" class="img_restau_index" alt="La_palette_du_gout"/>
 
-                <p class="nouveaute"> Nouveau</p>
+                    <p class="nouveaute"> Nouveau</p>
                 
-                <figcaption class="InfoRestau_index">
-                    <div>
-                        <p class="nom_restau">La palette du goût</p>
-                        <p class="lieu_restau"> Menilmontant</p>
-                    </div>
+                    <figcaption class="InfoRestau_index">
+                        <div>
+                            <p class="nom_restau">La palette du goût</p>
+                            <p class="lieu_restau"> Menilmontant</p>
+                        </div>
+                    
+                        <div>
+                            <span class="remplissage"> <i class="fa-solid fa-heart"></i> </span>
+                        </div>
+                    </figcaption> 
+                </figure> 
+            </a>
 
-                    <div>
-                        <span class="remplissage"> <i class="fa-solid fa-heart"></i> </span>
-                    </div>
-                </figcaption> 
-            
-            </figure> 
-        </a>
-
-        <a href="./LaNoteEnchantee.html">
-            <figure class="CardRestau_index">
+            <a href="./LaNoteEnchantee.html">
+                <figure class="CardRestau_index">
          
-                <img src="./images/images_index/La_note_enchantee.jpg" class="img_restau_index" alt="La_note_enchantee"/>
+                    <img src="./images/images_index/La_note_enchantee.jpg" class="img_restau_index" alt="La_note_enchantee"/>
 
-                <p class="nouveaute"> Nouveau</p>
+                    <p class="nouveaute"> Nouveau</p>
 
-                <figcaption class="InfoRestau_index">
-                    <div>
-                        <p class="nom_restau">La note enchantée</p>
-                        <p class="lieu_restau">Charonne</p>
-                    </div>
+                    <figcaption class="InfoRestau_index">
+                        <div>
+                            <p class="nom_restau">La note enchantée</p>
+                            <p class="lieu_restau">Charonne</p>
+                        </div>
 
-                    <div>
-                        <span class="remplissage"> <i class="fa-solid fa-heart"></i> </span>
-                    </div>
-                </figcaption>        
-            </figure>
-        </a>
+                        <div>
+                            <span class="remplissage"> <i class="fa-solid fa-heart"></i> </span>
+                        </div>
+                    </figcaption>        
+                </figure>
+            </a>
         
-        <a href="./ALaFrancaise_page.html">
-            <figure class="CardRestau_index">           
-                <img src="./images/images_index/A_la_francaise.jpg" class="img_restau_index" alt="A_la_francaise"/>
+            <a href="./ALaFrancaise_page.html">
+                <figure class="CardRestau_index">           
+                    <img src="./images/images_index/A_la_francaise.jpg" class="img_restau_index" alt="A_la_francaise"/>
 
-                <figcaption class="InfoRestau_index">
-                    <div>
-                        <p class="nom_restau">A la française</p>
-                        <p class="lieu_restau">Cité Rouge</p>
-                    </div>
+                    <figcaption class="InfoRestau_index">
+                        <div>
+                            <p class="nom_restau">A la française</p>
+                            <p class="lieu_restau">Cité Rouge</p>
+                        </div>
 
-                    <div> 
-                        <span class="remplissage">  <i class="fa-solid fa-heart"></i> </span>
-                    </div>
-                </figcaption>
-            </figure>
-        </a>
+                        <div> 
+                            <span class="remplissage">  <i class="fa-solid fa-heart"></i> </span>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
 
-        <a href="./LeDeliceDesSens.html">
-            <figure class="CardRestau_index">
-                <img src="./images/images_index/Le_delice_des_sens.jpg" class="img_restau_index" alt="Le_delice_des_sens"/>
+            <a href="./LeDeliceDesSens.html">
+                <figure class="CardRestau_index">
+                    <img src="./images/images_index/Le_delice_des_sens.jpg" class="img_restau_index" alt="Le_delice_des_sens"/>
 
-                <figcaption class="InfoRestau_index">
-                    <div>
-                        <p class="nom_restau">Le délice des sens</p>
-                        <p class="lieu_restau">Folie-Méricourt</p>
-                    </div>
+                    <figcaption class="InfoRestau_index">
+                        <div>
+                            <p class="nom_restau">Le délice des sens</p>
+                            <p class="lieu_restau">Folie-Méricourt</p>
+                        </div>
 
-                    <div>
-                        <span class="remplissage"> <i class="fa-solid fa-heart"></i> </span>
-                    </div>
-                </figcaption>     
-            </figure>
-        </a>
-        </div>
+                        <div>
+                            <span class="remplissage"> <i class="fa-solid fa-heart"></i> </span>
+                        </div>
+                    </figcaption>     
+                </figure>
+            </a>
+        </section>
     </main>
 
     <footer>

@@ -61,9 +61,13 @@ body {
   }
 }
 .logo_OMF {
-  width: 43%;
+  width: 44%;
   display: block;
-  margin: 21px auto 18px auto;
+  margin: 6% auto 4% auto;
+}
+
+main {
+  margin-top: 4%;
 }
 
 form {
@@ -128,11 +132,15 @@ a .BtnExploration:hover {
   box-shadow: 5px 5px 5px #d9d9d9;
 }
 
-header h2 {
+h2 {
   font-family: "Roboto_Bold";
   font-size: 1.6rem;
   margin: 0;
   padding: 44px 0px 31px 16px;
+}
+
+.ChoixFnctment {
+  margin-bottom: 14%;
 }
 
 .BtnFnctment {
@@ -177,64 +185,28 @@ header h2 {
   color: #9356DC;
 }
 
-@media all and (min-width: 426px) and (max-width: 769px) {
-  a .BtnExploration {
-    width: 41%;
-  }
-  .BtnFnctment {
-    width: 384px; /* style identique avec les écrans pc 1024 : ne faire qu'un média quéry*/
-    margin: auto;
-  }
-  .BtnFnctment .BtnFnctment__ordre {
-    left: auto; /* style identique avec les écrans pc 1024 : ne faire qu'un média quéry*/
-    margin-left: 5px;
-  }
-}
-@media all and (min-width: 769px) and (max-width: 2561px) {
-  .Entete {
-    padding-bottom: 9%;
-  }
-  .Entete h1 {
-    padding-top: 5%;
-  }
-  .BtnFnctment {
-    width: 384px;
-    margin: auto;
-  }
-  .BtnFnctment .BtnFnctment__ordre {
-    left: auto;
-    margin-left: 5px;
-  }
-}
-@media all and (min-width: 769px) and (max-width: 1441px) {
-  a .BtnExploration {
-    width: 29%;
-  }
-}
-@media all and (min-width: 1441px) and (max-width: 2561px) {
-  a .BtnExploration {
-    width: 38%;
-  }
-}
-main {
-  background-color: #F7F7F7;
-  margin-top: 15%;
-  padding-bottom: 16%;
-}
-main h2 {
-  font-family: "Roboto_Bold";
-  font-size: 1.6rem;
-  padding: 14% 0 0 5%;
-}
-
 a {
   text-decoration: none;
+}
+
+#ExploreRestau {
+  background-color: #F7F7F7;
+  font-family: "Roboto_Bold";
+  font-size: 1.6rem;
+  padding: 13% 0 9% 5%;
+  margin: 0;
+}
+
+.RestaurantsIndex {
+  background-color: #F7F7F7;
+  margin: 0;
+  padding-bottom: 13%;
 }
 
 .CardRestau_index {
   width: 93%;
   background-color: white;
-  margin: 5% auto 5% auto;
+  margin: 0% auto 5% auto;
   border-radius: 15px;
   box-shadow: 5px 5px 5px #e8e8e8;
   position: relative;
@@ -326,10 +298,22 @@ a {
   }
 }
 
+@media all and (min-width: 426px) and (max-width: 769px) {
+  a .BtnExploration {
+    width: 41%;
+  }
+  .BtnFnctment {
+    width: 384px;
+    margin: auto;
+  }
+  .BtnFnctment .BtnFnctment__ordre {
+    left: auto;
+    margin-left: 5px;
+  }
+}
 @media all and (min-width: 767px) and (max-width: 2561px) {
   main {
     margin-top: 5%;
-    padding-bottom: 9%;
   }
   main h2 {
     padding-top: 6%;
@@ -339,14 +323,43 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    margin: 0;
-    padding: 0;
   }
 }
-@media all and (min-width: 767px) and (max-width: 1025px) {
+@media all and (min-width: 769px) and (max-width: 2561px) {
+  .Entete {
+    padding-bottom: 9%;
+  }
+  .Entete h1 {
+    padding-top: 5%;
+  }
+  .BtnFnctment {
+    width: 384px;
+    margin: auto;
+  }
+  .BtnFnctment .BtnFnctment__ordre {
+    left: auto;
+    margin-left: 5px;
+  }
+}
+@media all and (min-width: 850px) and (max-width: 2561px) {
+  .ChoixFnctment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6%;
+  }
+  #ExploreRestau {
+    padding: 9% 0 8% 5%;
+  }
+}
+@media all and (min-width: 715px) and (max-width: 1025px) {
   a .CardRestau_index {
     width: 348px;
     margin: 11px;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1441px) {
+  a .BtnExploration {
+    width: 29%;
   }
 }
 @media all and (min-width: 1025px) and (max-width: 2561px) {
@@ -358,6 +371,9 @@ a {
 @media all and (min-width: 1441px) and (max-width: 2561px) {
   .index {
     margin-top: 6%;
+  }
+  a .BtnExploration {
+    width: 38%;
   }
 }
 nav {
@@ -424,12 +440,6 @@ img {
   }
   .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens {
     height: 491px;
-  }
-}
-@media all and (min-width: 1022px) and (max-width: 2561px) {
-  .ChoixFnctment {
-    display: flex;
-    justify-content: space-between;
   }
 }
 @media all and (min-width: 2559px) {
