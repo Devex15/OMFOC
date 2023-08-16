@@ -8,7 +8,7 @@
 .Banniere_ALaFrancaise
 {
 background-image: url(../../images/images_index/A_la_francaise.jpg);
-height: 284px;
+height: 282px;
 background-size: cover;
 }
 
@@ -52,7 +52,7 @@ background-size: cover;
             font-size: 1.8rem;
             font-weight: 400;
             font-family: $Police-grostitres;
-            padding: 38px 0 0 16px;
+            padding: 36px 0 0 16px;
             margin: 0;
         }
 
@@ -68,19 +68,35 @@ background-size: cover;
 
     .SousTitre_Page
     {
-        font-family: $Police-texteextralight;
+        font-family: $Police-texteextralight, sans-serif;
         font-size: 1rem;
         margin: 0;
         padding: 29px 0 0 9px;
+    }
+
+    .SousTitre_PageDecale
+    {
+        font-family: $Police-texteextralight, sans-serif;
+        font-size: 1rem;
+        margin: 0;
+        padding: 29px 0 0 14%;
     }
 
     .SousTitre_surlignage
     {
        
        margin: 6px 0 13px 9px;
-       width: 41px;
+       width: 39px;
        height: 1%;
        border: 2px solid $couleur_tertiaire;
+    }
+
+    .SousTitre_surlignageDecale
+    {
+        margin: 6px 0 13px 49px;
+        width: 39px;
+        height: 1%;
+        border: 2px solid $couleur_tertiaire;
     }
 
     a
@@ -91,7 +107,7 @@ background-size: cover;
 
     .CardPlat
     {
-        background-color: white; /* à vérifier */
+        background-color: white;
         margin: 0 15px 15px 15px;
         border-radius: 13px 15px 13px 13px;
         box-shadow: 1px 4px 4px 4px #e8e8e8;
@@ -137,7 +153,7 @@ background-size: cover;
 
             .CardPLat__Legumes
             {
-                font-family: $Police-texteextralight;
+                font-family: $Police-texteextralight, sans-serif;
                 font-size: 1rem;
                 overflow: hidden;
                 white-space: nowrap;
@@ -306,7 +322,7 @@ a
         margin: 13% auto 0 auto;
         padding: 15px 5px 15px 5px;
         background: $degrade;
-        font-family: "Roboto_Regular";
+        font-family: "Roboto_Regular", sans-serif;
         font-size: 1.1rem;
         text-align: center;
         border-radius: 28px;

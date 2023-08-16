@@ -6,7 +6,7 @@ footer
 
     p
     {
-        font-family: $Police-grostitres; 
+        font-family: $Police-grostitres, sans-serif; 
         font-size:1.2rem;
         margin: 0;
         padding: 6% 0 5% 9%;
@@ -28,7 +28,7 @@ ul
     {
         text-decoration: none;
         color: white;
-        font-family: $Police-textenormal;
+        font-family: $Police-textenormal, sans-serif;
         font-size: 1.1rem;
 
         i
