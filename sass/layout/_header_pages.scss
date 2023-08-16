@@ -7,10 +7,10 @@
     .lien
     {
         text-align: center;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         width: 16%;
         height: 69px;
-        line-height: 72px;
+        line-height: 74px;
         margin-left: 18px;
 
         a
@@ -39,7 +39,8 @@
 
         }
 
-    @media all and (min-width:769px) and (max-width:2559px)
+        
+    @media all and (min-width:769px) and (max-width:1439px)
     {
 
         .lien
@@ -48,6 +49,16 @@
             line-height: 161px;
         }
     }
+
+        @media all and (min-width: 1439px) and (max-width:2561px)
+        {
+            .lien
+            {
+                font-size: 1.5rem;
+                line-height: 208px;
+            }
+
+        }
 
     @media all and (min-width:2559px)
 

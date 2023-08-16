@@ -1,4 +1,4 @@
-main
+.MainIndex
 {
     margin-top: 4%;
 }
@@ -156,7 +156,7 @@ a
     background-color: #F7F7F7;
     font-family: $Police-textegras;
     font-size: 1.6rem;
-    padding: 13% 0 9% 5%;
+    padding: 13% 0 7% 5%;
     margin: 0;
 }
 
@@ -251,10 +251,10 @@ a
 
             i
             {
-                padding-right: 25px;
+                padding-right: 11px;
                 color:white;
                 -webkit-text-stroke: 1px black;
-                font-size: 22px;
+                font-size: 24px;
                 transition: all 2ms linear;
 
                 &:hover

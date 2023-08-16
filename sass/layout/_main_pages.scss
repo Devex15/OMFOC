@@ -1,6 +1,8 @@
 .MainPages
 {
     margin: 0;
+    padding-bottom: 12%;
+    background-color: #F7F7F7;
 }
 
 .Banniere_ALaFrancaise
@@ -34,11 +36,10 @@ background-size: cover;
 
 .MenuPages
 {
-    margin-top: -13%;
-    background-color: #F7F7F7;
+    margin-top: -8%;
     width: 100%;
-    border-radius: 39px 39px 0 0;
-    padding-bottom: 14%;
+    border-radius: 41px 41px 0 0;
+    background-color: #F7F7F7;
 
     .TitrePrincipal_Pages
     {
@@ -51,13 +52,13 @@ background-size: cover;
             font-size: 1.8rem;
             font-weight: 400;
             font-family: $Police-grostitres;
-            padding: 31px 0 0 18px;
+            padding: 38px 0 0 16px;
             margin: 0;
         }
 
         i
         {
-            padding: 38px 33px 0 0;
+            padding: 47px 35px 0 0;
             font-size: 1.4rem;
             color: white;
             -webkit-text-stroke: 1px black;
@@ -70,7 +71,7 @@ background-size: cover;
         font-family: $Police-texteextralight;
         font-size: 1rem;
         margin: 0;
-        padding: 28px 0 0 9px;
+        padding: 29px 0 0 9px;
     }
 
     .SousTitre_surlignage
@@ -194,29 +195,54 @@ background-size: cover;
         }
     }
 
-    a
+        .DelayAffich200ms
     {
-        text-decoration: none;
-        color: white;
+        animation-delay: 200ms;
+    }
 
-        .BtnCommander
-        {
-            margin: 11% auto 0 auto;
-            padding: 15px 0 15px 0;
-            background: $degrade;
-            font-family: "Roboto_Regular";
-            font-size: 1.1rem;
-            text-align: center;
-            border-radius: 28px;
-            width: 49%;
-            box-shadow: 5px 5px 5px #e8e8e8;
-            
-            &:hover
-            {
-                background: $degrade_claire;
-                box-shadow: 5px 5px 5px darken(#e8e8e8, 20%)
-            }
-        }
+    .DelayAffich400ms
+    {
+        animation-delay: 400ms;
+    }
+
+    .DelayAffich600ms
+    {
+        animation-delay: 600ms;
+    }
+
+    .DelayAffich800ms
+    {
+        animation-delay: 800ms;
+    }
+
+    .delay1000ms
+    {
+        animation-delay: 1000ms;
+    }
+
+    .DelayAffich1200ms
+    {
+        animation-delay: 1200ms;
+    }
+
+    .DelayAffich1400ms
+    {
+        animation-delay: 1400ms;
+    }
+
+    .DelayAffich1600ms
+    {
+        animation-delay: 1600ms;
+    }
+
+    .DelayAffich1800ms
+    {
+        animation-delay: 1800ms;
+    }
+
+    .DelayAffich2000ms
+    {
+        animation-delay: 2000ms;
     }
 
     .DelayAffich200ms
@@ -270,6 +296,31 @@ background-size: cover;
     }
 }
 
+a
+{
+    text-decoration: none;
+    color: white;
+
+    .BtnCommander
+    {
+        margin: 13% auto 0 auto;
+        padding: 15px 5px 15px 5px;
+        background: $degrade;
+        font-family: "Roboto_Regular";
+        font-size: 1.1rem;
+        text-align: center;
+        border-radius: 28px;
+        width: 49%;
+        box-shadow: 5px 5px 5px #e8e8e8;
+            
+        &:hover
+        {
+            background: $degrade_claire;
+            box-shadow: 5px 5px 5px darken(#e8e8e8, 20%)
+        }
+    }
+}
+
 @media all and (min-width:426px) and (max-width:850px)
 {
     .Banniere_ALaFrancaise, .Banniere_LaPaletteDuGout, .Banniere_LaNoteEnchantee, .Banniere_LeDeliceDesSens
@@ -298,12 +349,17 @@ background-size: cover;
     }
 }
 
+
 @media all and (min-width:850px) and (max-width:2561px)
 {
 
+.MainPages
+{
+    padding-bottom: 6%;
+
     .MenuPages
     {
-        padding-bottom: 9%;
+        padding-bottom: 6%;
 
         .SectionPages
         {
@@ -325,15 +381,19 @@ background-size: cover;
             margin: 15px auto 11px auto;
         }
 
-        a
-            {
-                .BtnCommander
-                {
-                width: 386px;
-                margin: 6% auto 0 auto;
-                }
-            }
     }
+
+    a
+    {
+        .BtnCommander
+        {
+            width: 386px;
+            margin: 15px auto 0 auto;
+        }
+
+    }
+
+}
 }
 
 @media all and (min-width: 850px) and (max-width: 1026px)
