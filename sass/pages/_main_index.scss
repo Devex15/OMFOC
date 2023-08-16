@@ -34,7 +34,7 @@ form
 
 .Entete    
 {
-    background-color: #F7F7F7; /* valeur à modifier en cas de demande client : valeur trouvée avec color picker*/
+    background-color: $Couleur_FondIndexEtPages; /* valeur à modifier en cas de demande client : valeur trouvée avec color picker*/
     text-align: center;
     padding-bottom: 16%;
 
@@ -70,12 +70,12 @@ a
         font-size: 1.1rem;
         border-radius: 28px;
         width: 63%;
-        box-shadow: 5px 5px 5px #e8e8e8;
+        box-shadow: 5px 5px 5px $Couleur_OmbrageBouton;
                 
         &:hover
         {
             background: $degrade_claire;
-            box-shadow:  5px 5px 5px darken(#e8e8e8,6%)
+            box-shadow:  5px 5px 5px darken($Couleur_OmbrageBouton,6%)
         }
     }
 }
@@ -116,7 +116,7 @@ h2
     .BtnFnctment__Info
     {
         margin: auto auto 25px auto;
-        background-color: #F7F7F7;
+        background-color: $Couleur_FondIndexEtPages;
         border-radius: 25px;
         width: 91%;
         height: 79px;
@@ -124,7 +124,7 @@ h2
         font-family: $Police-textegras,sans-serif;
         font-size: 1.1rem;
         text-align: center;
-        box-shadow: 5px 5px 5px #e8e8e8;  
+        box-shadow: 5px 5px 5px $Couleur_OmbrageBouton;  
         
         i
         {
@@ -153,7 +153,7 @@ a
 
 #ExploreRestau
 {
-    background-color: #F7F7F7;
+    background-color: $Couleur_FondIndexEtPages;
     font-family: $Police-textegras, sans-serif;
     font-size: 1.6rem;
     padding: 13% 0 7% 5%;
@@ -162,7 +162,7 @@ a
 
 .RestaurantsIndex
 {
-    background-color: #F7F7F7;
+    background-color: $Couleur_FondIndexEtPages;
     margin: 0;
     padding-bottom: 13%;
 }
@@ -173,7 +173,7 @@ a
     background-color: white;
     margin: 0% auto 5% auto;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px #e8e8e8;
+    box-shadow: 5px 5px 5px $Couleur_OmbrageBouton;
     position: relative;
 
     a

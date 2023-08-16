@@ -327,12 +327,12 @@ a
         text-align: center;
         border-radius: 28px;
         width: 49%;
-        box-shadow: 5px 5px 5px #e8e8e8;
+        box-shadow: 5px 5px 5px $Couleur_OmbrageBouton;
             
         &:hover
         {
             background: $degrade_claire;
-            box-shadow: 5px 5px 5px darken(#e8e8e8, 20%)
+            box-shadow: 5px 5px 5px darken($Couleur_OmbrageBouton, 20%)
         }
     }
 }
