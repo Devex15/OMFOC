@@ -288,7 +288,7 @@ a
 
                 to
                 {
-                    background: linear-gradient(180deg, $Couleur_VioletCoeur 10%, #FF79DA 90%);
+                    background: linear-gradient(180deg, $Couleur_VioletCoeur 10%, $Couleur_secondaire 90%);
                     -webkit-background-clip: text ;
                     -webkit-text-fill-color: transparent;
                     -webkit-text-stroke: 1px $Couleur_secondaire;

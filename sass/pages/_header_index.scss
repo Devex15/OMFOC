@@ -11,8 +11,8 @@ body
     background-color: white;
     height: 100vh;
     inset: 0px;
-    z-index: 3;
-    opacity: 1;
+    opacity: 1; 
+    z-index: 3; 
     color: $Couleur_premiere;
     animation: AnimSpinner 1800ms forwards;
 }
